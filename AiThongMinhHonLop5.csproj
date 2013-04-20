@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA1BDC9A-B1A6-4985-A183-2D6ECBD50503}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AiThongMinhHonLop5</RootNamespace>
+    <AssemblyName>AiThongMinhHonLop5</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>AiThongMinhHonLop5.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>AiThongMinhHonLop5.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <ExpressionBlendVersion>5.0.30924.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions, Version=3.8.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch" />
+    <Reference Include="microsoft.xna.framework.interop" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Interactivity, Version=3.8.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="mscorlib.extensions" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationIdleModeHelper.cs" />
+    <Compile Include="GamePage.xaml.cs">
+      <DependentUpon>GamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="HighScores.xaml.cs">
+      <DependentUpon>HighScores.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="page1.xaml.cs">
+      <DependentUpon>page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageAbout.xaml.cs">
+      <DependentUpon>PageAbout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageCacBe.xaml.cs">
+      <DependentUpon>PageCacBe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageCauHoi.xaml.cs">
+      <DependentUpon>PageCauHoi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFlash.xaml.cs">
+      <DependentUpon>PageFlash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageGameOver.xaml.cs">
+      <DependentUpon>PageGameOver.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageGioiThieuGameShow.xaml.cs">
+      <DependentUpon>PageGioiThieuGameShow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageLuatChoi.xaml.cs">
+      <DependentUpon>PageLuatChoi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PagePlay.xaml.cs">
+      <DependentUpon>PagePlay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PagePlay2.xaml.cs">
+      <DependentUpon>PagePlay2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AppServiceProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="GamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HighScores.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageAbout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageCacBe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageCauHoi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFlash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageGameOver.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageGioiThieuGameShow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageLuatChoi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PagePlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PagePlay2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Font\UVNDaLat.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DT1.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DT2.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Score.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\a1.png" />
+    <Content Include="Images\a2.png" />
+    <Content Include="Images\a3.png" />
+    <Content Include="Images\a4.png" />
+    <Content Include="Images\a5.png" />
+    <Content Include="Images\a6.png" />
+    <Content Include="Images\a7.png" />
+    <Content Include="Images\about.png" />
+    <Content Include="Images\ban.png" />
+    <Content Include="Images\bang.png" />
+    <Content Include="Images\be1.png" />
+    <Content Include="Images\be1b.png" />
+    <Content Include="Images\be1c.png" />
+    <Content Include="Images\be2.png" />
+    <Content Include="Images\be2b.png" />
+    <Content Include="Images\be2c.png" />
+    <Content Include="Images\be3.png" />
+    <Content Include="Images\be3b.png" />
+    <Content Include="Images\be3c.png" />
+    <Content Include="Images\be4.png" />
+    <Content Include="Images\be4b.png" />
+    <Content Include="Images\be4c.png" />
+    <Content Include="Images\be5.png" />
+    <Content Include="Images\be5b.png" />
+    <Content Include="Images\be5c.png" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\bgCauhoiHong.png" />
+    <Content Include="Images\bgCauhoiXam.png" />
+    <Content Include="Images\bg_hong.png" />
+    <Content Include="Images\bg_xam.png" />
+    <Content Include="Images\bg_xanhla.png" />
+    <Content Include="Images\blackboard.png" />
+    <Content Include="Images\boxname.png" />
+    <Content Include="Images\choingay1.png" />
+    <Content Include="Images\choingay2.png" />
+    <Content Include="Images\choingay3.png" />
+    <Content Include="Images\chon.png" />
+    <Content Include="Images\chon2.png" />
+    <Content Include="Images\chondongdoi.png" />
+    <Content Include="Images\co1.png" />
+    <Content Include="Images\co2.png" />
+    <Content Include="Images\dialog.png" />
+    <Content Include="Images\diemcaonhat1.png" />
+    <Content Include="Images\diemcaonhat2.png" />
+    <Content Include="Images\dongy1.png" />
+    <Content Include="Images\dongy2.png" />
+    <Content Include="Images\dongy3.png" />
+    <Content Include="Images\frame1.png" />
+    <Content Include="Images\frame2.png" />
+    <Content Include="Images\framedapan.png" />
+    <Content Include="Images\frame_tro_giup.png" />
+    <Content Include="Images\giaicuumayman1.png" />
+    <Content Include="Images\giaicuumayman2.png" />
+    <Content Include="Images\gioithieuct.png" />
+    <Content Include="Images\icon_consulted.png" />
+    <Content Include="Images\icon_copied.png" />
+    <Content Include="Images\icon_replay.png" />
+    <Content Include="Images\ic_launcher.png" />
+    <Content Include="Images\info.png" />
+    <Content Include="Images\khong1.png" />
+    <Content Include="Images\khong2.png" />
+    <Content Include="Images\noidunggiaicuumayman.png" />
+    <Content Include="Images\noidungsaochep.png" />
+    <Content Include="Images\noidungthamkhao.png" />
+    <Content Include="Images\roundbe1.png" />
+    <Content Include="Images\roundbe2.png" />
+    <Content Include="Images\roundbe3.png" />
+    <Content Include="Images\roundbe4.png" />
+    <Content Include="Images\roundbe5.png" />
+    <Content Include="Images\saochep1.png" />
+    <Content Include="Images\saochep2.png" />
+    <Content Include="Images\skip.png" />
+    <Content Include="Images\skip2.png" />
+    <Content Include="Images\soundoff.png" />
+    <Content Include="Images\soundon.png" />
+    <Content Include="Images\speek.png" />
+    <Content Include="Images\tab1.png" />
+    <Content Include="Images\tb1.png" />
+    <Content Include="Images\tb2.png" />
+    <Content Include="Images\tennguoichoi.png" />
+    <Content Include="Images\thamkhao1 %282%29.png" />
+    <Content Include="Images\thamkhao1.png" />
+    <Content Include="Images\thamkhao2.png" />
+    <Content Include="Images\think.png" />
+    <Content Include="Images\tieudegiaicuumayman.png" />
+    <Content Include="Images\tieudesaochep.png" />
+    <Content Include="Images\tieudethamkhao.png" />
+    <Content Include="Images\tracnghiem1.png" />
+    <Content Include="Images\tracnghiem2.png" />
+    <Content Include="Images\updatescore.png" />
+    <Content Include="Images\vibrateoff.png" />
+    <Content Include="Images\vibrateon.png" />
+    <Content Include="Images\yourscore_box.png" />
+    <Content Include="sound\A.wma" />
+    <Content Include="sound\B.wma" />
+    <Content Include="sound\bgPlay.wav" />
+    <Content Include="sound\C.wma" />
+    <Content Include="sound\cacquyentrogiup.mp3" />
+    <Content Include="sound\cauhoinhusau1.wma" />
+    <Content Include="sound\cauhoinhusau2.wma" />
+    <Content Include="sound\chon.mp3" />
+    <Content Include="sound\chonbedautien.mp3" />
+    <Content Include="sound\chonbedautien2.wma" />
+    <Content Include="sound\chonbetieptheo.mp3" />
+    <Content Include="sound\chonbg.wav" />
+    <Content Include="sound\chondapan.mp3" />
+    <Content Include="sound\chondapan.wav" />
+    <Content Include="sound\chonmon1.wma" />
+    <Content Include="sound\chonmon10.wma" />
+    <Content Include="sound\chonmon11.wma" />
+    <Content Include="sound\chonmon2.wma" />
+    <Content Include="sound\chonmon3.wma" />
+    <Content Include="sound\chonmon4.wma" />
+    <Content Include="sound\chonmon5.wma" />
+    <Content Include="sound\chonmon6.wma" />
+    <Content Include="sound\chonmon7.wma" />
+    <Content Include="sound\chonmon8.wma" />
+    <Content Include="sound\chonmon9.wma" />
+    <Content Include="sound\D.wma" />
+    <Content Include="sound\daA.wma" />
+    <Content Include="sound\daB.wma" />
+    <Content Include="sound\daC.wma" />
+    <Content Include="sound\daD.wma" />
+    <Content Include="sound\dapan1.wma" />
+    <Content Include="sound\dapan2.wma" />
+    <Content Include="sound\dapan3.wma" />
+    <Content Include="sound\dapan4.wma" />
+    <Content Include="sound\dapan5.wma" />
+    <Content Include="sound\dapan6.wma" />
+    <Content Include="sound\dapan7.wma" />
+    <Content Include="sound\dapanbg.wav" />
+    <Content Include="sound\dapanbg.wma" />
+    <Content Include="sound\dapanok.wma" />
+    <Content Include="sound\EFGaneOver.mp3" />
+    <Content Include="sound\gioithieucacbe.mp3" />
+    <Content Include="sound\ketthuc.wma" />
+    <Content Include="sound\luatchoi.mp3" />
+    <Content Include="sound\quyensaochep.wma" />
+    <Content Include="sound\quyenthamkhao.wma" />
+    <Content Include="sound\soundbg.wav" />
+    <Content Include="sound\soundbgabout.mp3" />
+    <Content Include="sound\soundclick.mp3" />
+    <Content Include="sound\soundsai.mp3" />
+    <Content Include="sound\soundsaochepthamkhao.mp3" />
+    <Content Include="sound\SoundWin.mp3" />
+    <Content Include="sound\votay.mp3" />
+    <Content Include="sound\Win1.mp3" />
+    <Content Include="sound\Win2.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="dongy1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

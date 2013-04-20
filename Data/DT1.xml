@@ -1,0 +1,1930 @@
+﻿<xml>
+  <ProductItem>
+    <SUBJECT>MATHEMATIC1</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ngày 3 trong tháng là thứ hai, hỏi ngày 11 trong tháng đó là thứ mấy?</QUESTION>
+    <A>Thứ hai</A>
+    <B>Thứ ba</B>
+    <C>Thứ tư</C>
+    <D>Thứ năm</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC2</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Thực hiện phép quy đổi sau: 3dm5cm – 12cm = ?</QUESTION>
+    <A>23 dm</A>
+    <B>23 cm</B>
+    <C>47 dm</C>
+    <D>47 cm</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC3</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong các phép chia có dư với số chia là 7, số dư lớn nhất là?</QUESTION>
+    <A>4</A>
+    <B>5</B>
+    <C>6</C>
+    <D>7</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC3</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Số gồm 3 đơn vị, 7trăm, 8 chục và 2 nghìn là?</QUESTION>
+    <A>3782</A>
+    <B>7382</B>
+    <C>3782</C>
+    <D>2783</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC3</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ngày 6 tháng 7 là thứ ba. Hỏi ngày 5 tháng 9 cùng năm đó là thứ mấy?</QUESTION>
+    <A>Chủ nhật</A>
+    <B>Thứ hai</B>
+    <C>Thứ sáu</C>
+    <D>Thứ bẩy</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC4</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Một đơn vị bộ đội có số người nhiều hơn 300 nhưng chưa đến 400. Nếu xếp hàng 2 hoặc hàng 5 hoặc hàng 9 đều vừa đủ. Hỏi đơn vị bộ đội có bao nhiêu người?</QUESTION>
+    <A>320 người</A>
+    <B>340 người</B>
+    <C>360 người</C>
+    <D>390 người</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC4</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Biểu thức có giá trị khác với giá trị biểu thức 36 : (2x3) là?</QUESTION>
+    <A>36 : 2 x 3</A>
+    <B>36: 2 : 3</B>
+    <C>36 : 3: 2</C>
+    <D>36 : 6</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC4</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>An thực hiện một phép nhân có thừa số thứ hai là 36. Do sơ ý nên An đã đặt tất cả các tích riêng thẳng cột như trong phép cộng nên được kết quả sai là 3258. Tìm tích đúng của phép nhân?</QUESTION>
+    <A>19548</A>
+    <B>6516</B>
+    <C>39096</C>
+    <D>13032</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC5</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Người ta cho 4 vòi nước chảy vào một bể bơi không có nước. Hỏi sau bao lâu bể đầy? Biết rằng nếu chỉ mở vòi 1,2 và 3 thì mất 12 giờ bể đầy. Nếu chỉ mở vòi 2,3 và 4 thì mất 15 giờ bể đầy. Còn nếu chỉ mở vòi 1 và 4 thì phải sau 20 giờ bể mới đầy.</QUESTION>
+    <A>8 giờ</A>
+    <B>9 giờ</B>
+    <C>10 giờ</C>
+    <D>12 giờ</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC5</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Một người đi xe máy từ A đến B với vận tốc 30km/giờ. Người đó nghỉ ở B mất 1 giờ rồi trở về A với vận tốc 40km/giờ. Thời gian đi, về và nghỉ hết tất cả 3 giờ 6 phút. Tính quãng đường AB?</QUESTION>
+    <A>30 km</A>
+    <B>32 km</B>
+    <C>34 km</C>
+    <D>36 km</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MATHEMATIC5</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Có tất cả bao nhiêu số tự nhiên chia hết cho 2 nhỏ hơn 2012?</QUESTION>
+    <A>1000</A>
+    <B>1003</B>
+    <C>1006</C>
+    <D>1008</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE1</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Từ nào sai chính tả trong các từ sau: phố xá, trung kết, sắp xếp, ý chí</QUESTION>
+    <A>phố xá</A>
+    <B>trung kết</B>
+    <C>sắp xếp</C>
+    <D>ý chí</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE1</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ghi lại từ không cùng nhóm với các từ trong nhóm sau? &quot;xanh thắm, đỏ thắm, màu xanh, đỏ tươi&quot;</QUESTION>
+    <A>xanh thắm</A>
+    <B>đỏ thắm</B>
+    <C>màu xanh</C>
+    <D>đỏ tươi</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE1</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Từ nào sai chính tả trong các từ sau: nhà ga, gềnh thác, cái ghế, ghi chép</QUESTION>
+    <A>nhà ga</A>
+    <B>gềnh thác</B>
+    <C>cái ghế</C>
+    <D>ghi chép</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE1</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ghi lại từ không cùng nhóm với các từ trong nhóm sau? &quot;dễ thương, thương mến, thương nhớ, thương yêu&quot;</QUESTION>
+    <A>dễ thương</A>
+    <B>thương mến</B>
+    <C>thương nhớ</C>
+    <D>thương yêu</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE2</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Chọn từ thích hợp điền vào chỗ trống: &quot;Nhanh như….&quot;</QUESTION>
+    <A>khỉ</A>
+    <B>cú</B>
+    <C>quạ</C>
+    <D>cắt</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE2</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Xác định cặp từ cùng nghĩa trong các từ sau?</QUESTION>
+    <A>Nhường nhịn - Thương yêu</A>
+    <B>Chăm chỉ - Cần cù</B>
+    <C>Yêu quý - Giúp đỡ</C>
+    <D>Thù hận - Đáng ghét</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE2</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Câu ghép sau có thể tách thành nhiều nhất mấy câu đơn: &quot;Chiếc thuyền ghé vào đầm sen trên hồ đã gần tàn hương sen chỉ còn thoang thoảng trong gió.&quot;</QUESTION>
+    <A>2</A>
+    <B>3</B>
+    <C>4</C>
+    <D>5</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE3</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong các từ ngữ sau từ nào không phải từ chỉ gộp những người trong gia đình? &quot;ông bà, anh em, ông ngoại, ông cháu&quot;</QUESTION>
+    <A>ông bà</A>
+    <B>anh em</B>
+    <C>ông ngoại</C>
+    <D>ông cháu</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE3</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Điền vào dấu…. chủ ngữ thích hợp để hoàn chỉnh câu: Ai - là gì? … là một người tướng mạo xấu xí nhưng trí tuệ đẹp, là “Lưỡng quốc trạng nguyên”,  là tác giả của bài phú dâng vua “Hoa sen trong Giếng ngọc”.</QUESTION>
+    <A>Mạc Đĩnh Chi</A>
+    <B>Lê Quý Đôn</B>
+    <C>Nguyễn Hiền</C>
+    <D>Lương Thế Vinh</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE3</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Từ &quot;trong&quot; trong nhóm dưới đây có quan hệ với nhau như thế nào? &quot;Trong veo, trong vắt, trong xanh&quot;</QUESTION>
+    <A>Từ đồng âm</A>
+    <B>Từ nhiều nghĩa</B>
+    <C>Từ đồng nghĩa</C>
+    <D>Từ nhiều âm</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>VIETNAMESE3</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Câu sau có bao nhiêu từ phức? &quot;Nhờ bạn giúp đỡ, lại có chí học hành, nhiều năm liền Hạnh là học sinh tiên tiến.&quot;</QUESTION>
+    <A>2</A>
+    <B>3</B>
+    <C>4</C>
+    <D>5</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Vua Quang Trung qua đời vào năm nào?</QUESTION>
+    <A>1793</A>
+    <B>1792</B>
+    <C>1791</C>
+    <D>1790</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Chiến thắng nào có ý nghĩa quyết định thắng lợi của cuộc chiến tranh giải phóng dân tộc dưới ngọn cờ của khởi nghĩa Lam Sơn vào năm 1427?</QUESTION>
+    <A>Chi Lăng - Xương Giang</A>
+    <B>Chí Linh</B>
+    <C>Diễn Châu</C>
+    <D>Tốt Động - Chúc Động</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Thời Tiền Lê, nước ta đương đầu với cuộc chiến tranh xâm lược của triều đại nào ở Trung Quốc?</QUESTION>
+    <A>Nhà Minh</A>
+    <B>Nhà Tống</B>
+    <C>Nhà Hán</C>
+    <D>Nhà Nguyên</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ai là nhà quân sự thiên tài đã cùng với các vua Trần và hàng loạt tướng lĩnh tài năng chiến đấu chống quân xâm lược Mông - Nguyên giành thắng lợi vẻ vang cho Tổ quốc?</QUESTION>
+    <A>Trần Quang Khải</A>
+    <B>Trần Thủ Độ</B>
+    <C>Trần Hưng Đạo</C>
+    <D>Trần Khánh Dư</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Lý Thường Kiệt xây dựng phòng tuyến chống quân Tống (thế kỉ XI) tại?</QUESTION>
+    <A>Dọc sông Cà Lồ</A>
+    <B>Dọc sông Cầu</B>
+    <C>Ải Chi Lăng</C>
+    <D>Cửa sông Bạch Đằng</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Chùa Một cột được xây dựng dưới thời nào?</QUESTION>
+    <A>Nhà Tiền Lê</A>
+    <B>Nhà Lý</B>
+    <C>Nhà Ngô</C>
+    <D>Nhà Đinh</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Nhà Lý được thành lập và tồn tại trong khoảng thời gian nào?</QUESTION>
+    <A>1010 - 1225</A>
+    <B>1010 - 1138 </B>
+    <C>1010 - 1209</C>
+    <D>1010 - 1210 </D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Cuộc khởi nghĩa Hai Bà Trưng (năm 40 sau CN) nổ ra chống lại quân xâm lược?</QUESTION>
+    <A>Quân Đông Hán</A>
+    <B>Quân Tây Hán</B>
+    <C>Quân Nam Hán</C>
+    <D>Quân Bắc Hán</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Sau khi lên ngôi hoàng đế, Lý Bí (Lý Nam Đế) đặt tên nước ta là gì?</QUESTION>
+    <A>Đại Việt</A>
+    <B>Nam Việt</B>
+    <C>Vạn Xuân</C>
+    <D>Đại Cồ Việt</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY4</SUBJECT>
+    <ID>10</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Người được nhân dân suy tôn là &quot;Bố Cái Đại Vương&quot; là ai?</QUESTION>
+    <A>Mai Thúc Loan</A>
+    <B>Phùng Hải</B>
+    <C>Đinh Bộ Lĩnh</C>
+    <D>Phùng Hưng</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Chiến tranh Trịnh - Nguyễn diễn ra trong khoảng thời gian nào?</QUESTION>
+    <A>1592 - 1627</A>
+    <B>1627 - 1788</B>
+    <C>1672 - 1788</C>
+    <D>1627 - 1672</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ngày thành lập Đông Dương Cộng sản Đảng?</QUESTION>
+    <A>07-Jun-19</A>
+    <B>06-Jul-19</B>
+    <C>07-Jun-1929</C>
+    <D>06-Jul-1929</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Nhật tấn công Đông Dương năm nào?</QUESTION>
+    <A>1940</A>
+    <B>1941</B>
+    <C>1942</C>
+    <D>1943</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Thời kì lịch sử VN từ năm 1858 đến năm 1945 được gọi là thời kì?</QUESTION>
+    <A>Bắc thuộc</A>
+    <B>Pháp thuộc</B>
+    <C>Hiện đại</C>
+    <D>Xã hội chủ nghĩa</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ngày Nhật đảo chính Pháp là ngày nào?</QUESTION>
+    <A>Đêm 8/3/1945</A>
+    <B>Đêm 9/3/1945</B>
+    <C>Sáng 7/3/1945</C>
+    <D>Chiều 7/3/1945</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Chiến dịch lịch sử Điện Biên Phủ diễn ra trong bao nhiêu ngày?</QUESTION>
+    <A>54</A>
+    <B>55</B>
+    <C>56</C>
+    <D>59</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Cuộc kháng chiến chống thực dân Pháp kéo dài bao nhiêu năm?</QUESTION>
+    <A>7 năm</A>
+    <B>8 năm</B>
+    <C>9 năm</C>
+    <D>10 năm</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Tác giả tác phẩm &quot;Kháng chiến nhất định thắng lợi&quot; là ai?</QUESTION>
+    <A>Hồ Chí Minh</A>
+    <B>Lê Duẩn </B>
+    <C>Trường Chinh</C>
+    <D>Phạm Văn Đồng</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Chiến thắng nào đã căn bản đánh bại âm mưu đánh nhanh, thắng nhanh của thực dân Pháp?</QUESTION>
+    <A>Việt Bắc</A>
+    <B>Trung Du</B>
+    <C>Biên Giới</C>
+    <D>Hà Nam Ninh</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>HISTORY5</SUBJECT>
+    <ID>10</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Tờ báo lần đầu tiên viết bằng chữ quốc ngữ được xuất bản năm nào?</QUESTION>
+    <A>1863</A>
+    <B>1864</B>
+    <C>1865</C>
+    <D>1866</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>NATURE1</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong các loại sau, rau nào là rau ăn thân?</QUESTION>
+    <A>Su hào</A>
+    <B>Cải bắp</B>
+    <C>Cà rốt</C>
+    <D>Bí xanh</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE1</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Muỗi thường đốt người là muỗi đực hay muỗi cái?</QUESTION>
+    <A>Muỗi đực</A>
+    <B>Cả hai</B>
+    <C>Muỗi lưỡng tính</C>
+    <D>Muỗi cái</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE1</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Vào mùa đông ở xứ lạnh, khi các mặt hồ và dòng sông đóng băng, cá sẽ đi đâu?</QUESTION>
+    <A>Tầng nước dưới</A>
+    <B>Đi nơi khác</B>
+    <C>Cá chết hết</C>
+    <D>Thành cá đông lạnh</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE1</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Loài chim nào bay nhanh nhất?</QUESTION>
+    <A>Đại bàng</A>
+    <B>Chim ưng</B>
+    <C>Chim cắt</C>
+    <D>Chim cú mèo</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE1</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Loài động vật nào có da dày nhất?</QUESTION>
+    <A>Voi </A>
+    <B>Tê giác</B>
+    <C>Trâu</C>
+    <D>Cá voi</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE1</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Con gì được lai từ con lừa và con ngựa?</QUESTION>
+    <A>Ngựa</A>
+    <B>Lừa</B>
+    <C>Dê</C>
+    <D>La</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE1</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Lá cây có chức năng gì?</QUESTION>
+    <A>Hô hấp</A>
+    <B>Quang hợp</B>
+    <C>Thoát hơi nước</C>
+    <D>Cả 3 ý trên</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE1</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trái đất có dạng hình gì?</QUESTION>
+    <A>Hình tròn</A>
+    <B>Hình vuông</B>
+    <C>Hình chữ nhật</C>
+    <D>Hình cầu</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE1</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION> Xét về sức nặng chịu được, con vật nào sau đây khoẻ nhất?</QUESTION>
+    <A>Voi</A>
+    <B>Kiến</B>
+    <C>Hà mã</C>
+    <D>Trâu</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>NATURE2</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION> Hiện tượng khi mặt trời, quả đất và mặt trăng theo thứ tự cùng nằm trên đường thẳng là hiện tượng gì?</QUESTION>
+    <A>Nguyệt thực</A>
+    <B>Nhật thực</B>
+    <C>Hoàng hôn</C>
+    <D>Giao thừa</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE2</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Cơ và xương được gọi là cơ quan gì của cơ thể?</QUESTION>
+    <A>Cử động</A>
+    <B>Cơ động</B>
+    <C>Vận động</C>
+    <D>Hoạt động</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE2</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Nhóm côn trùng có đặc điểm gì chung?</QUESTION>
+    <A>Không có xương sống</A>
+    <B>Chân phân thành các đốt</B>
+    <C>Có 6 chân</C>
+    <D>Cả 3 ý trên</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE2</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Thời gian để trái đất quay 1 vòng quanh mình nó là?</QUESTION>
+    <A>Một ngày</A>
+    <B>Một tuần</B>
+    <C>Một tháng</C>
+    <D>Một năm</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE2</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Mặt trăng là?</QUESTION>
+    <A>Vệ tinh của trái đất</A>
+    <B>Vệ tinh của mặt trời</B>
+    <C>Hành tinh của mặt trời</C>
+    <D>Hành tinh của trái đất</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE2</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trái đất là?</QUESTION>
+    <A>Vệ tinh của mặt trời</A>
+    <B>Hành tinh của mặt trời </B>
+    <C>Hành tinh của mặt trăng</C>
+    <D>Vệ tinh của mặt trăng</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE2</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Cơ quan nào thuộc hệ thần kinh đóng vai trò giữ thăng bằng trong cơ thể người?</QUESTION>
+    <A>Tiểu não</A>
+    <B>Đại não</B>
+    <C>Bán cầu não phải</C>
+    <D>Thùy não</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE2</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bộ phận nào có chức năng là giá đỡ và hỗ trợ hoạt động co giãn của 2 lá phổi?</QUESTION>
+    <A>Xương sống</A>
+    <B>Lồng ngực</B>
+    <C>Cơ hoành</C>
+    <D>Xương sườn</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>NATURE3</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bạn có biết tốc độ bay của muỗi là bao nhiêu?</QUESTION>
+    <A>0.5km đến 1km</A>
+    <B>1.5km đến 2km</B>
+    <C>2.5km đến 3.5km</C>
+    <D>4km đến 5.5km</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE3</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong các loài chim biết bay loài nào cao nhất thế giới?</QUESTION>
+    <A>Vạc</A>
+    <B>Cò trắng</B>
+    <C>Sếu đầu đỏ</C>
+    <D>Đà điểu</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE3</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Xương nào nhỏ nhất trong cơ thể người?</QUESTION>
+    <A>Xương vành tai</A>
+    <B>Xương bắp</B>
+    <C>Xương sống mũi</C>
+    <D>Xương tai trong</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE3</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Tim dẫn máu đi nuôi các tế bào trong cơ thể, vậy cái gì sẽ nuôi tim?</QUESTION>
+    <A>Máu do tâm nhĩ</A>
+    <B>Màng mao mạch quanh tim</B>
+    <C>Oxi</C>
+    <D>Máu</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE3</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Cột sống ở người có dạng chữ S liên quan đến hoạt động nào sau đây của người?</QUESTION>
+    <A>Phát sinh tiếng nói</A>
+    <B>Sử dụng dụng cụ</B>
+    <C>Đi đứng thẳng</C>
+    <D>Tư duy trìu tượng</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE3</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Máu của bạn chiếm bao nhiêu % nước?</QUESTION>
+    <A>0.3</A>
+    <B>0.48</B>
+    <C>0.78</C>
+    <D>0.85</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE3</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Tim bạn đập bao nhiêu lần một ngày?</QUESTION>
+    <A>50000</A>
+    <B>100000</B>
+    <C>150000</C>
+    <D>200000</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE3</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bệnh nào dưới đây không phải là bệnh tim mạch?</QUESTION>
+    <A>Huyết áp cao </A>
+    <B>Thấp tim</B>
+    <C>Lao</C>
+    <D>Đứt mạch máu não</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>NATURE3</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Hoạt động nào dưới đây không phải là hoạt động công nghiệp?</QUESTION>
+    <A>Khai thác dầu mỏ</A>
+    <B>Luyện thép </B>
+    <C>Bán hàng</C>
+    <D>Đánh bắt cá</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+
+  <ProductItem>
+    <SUBJECT>MUSIC1</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Có mấy loại quả được nhắc đến trong bài hát &quot;Quả&quot;?</QUESTION>
+    <A>4</A>
+    <B>5</B>
+    <C>6</C>
+    <D>7</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC1</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Xòe hoa&quot; là bài hát của dân tộc nào?</QUESTION>
+    <A>Thái</A>
+    <B>Tày</B>
+    <C>Nùng</C>
+    <D>Dao</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+
+  <ProductItem>
+    <SUBJECT>MUSIC1</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Có mấy loại nhạc cụ được tác giả nhắc đến trong lời bài hát &quot;Xòe hoa&quot;?</QUESTION>
+    <A>3</A>
+    <B>4</B>
+    <C>5</C>
+    <D>6</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC1</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Từ &quot;hòa bình&quot; được nhắc lại mấy lần trong lời bài hát &quot;Hòa bình cho bé&quot; của nhạc sĩ Huy Trân?</QUESTION>
+    <A>2</A>
+    <B>3</B>
+    <C>4</C>
+    <D>5</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+
+  <ProductItem>
+    <SUBJECT>MUSIC1</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Lời bài hát &quot;Đi tới trường&quot; có nội dung nói đến việc đi học của trẻ em vùng nào?</QUESTION>
+    <A>Nông thôn</A>
+    <B>Thành thị</B>
+    <C>Vùng cao</C>
+    <D>Vùng đồng bằng</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC1</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Sắp đến Tết rồi&quot; là của nhạc sĩ nào?</QUESTION>
+    <A>Hoàng Lân</A>
+    <B>Hoàng Vân</B>
+    <C>Phạm Tuyên</C>
+    <D>Trần Hiếu</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC1</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Bầu trời xanh&quot; là của nhạc sĩ nào?</QUESTION>
+    <A>Phạm Tuyên</A>
+    <B>Hoàng Lân</B>
+    <C>Nguyễn Văn Quỳ</C>
+    <D>Lê Hữu Lộc</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>MUSIC2</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Múa vui&quot; là của nhạc sĩ nào?</QUESTION>
+    <A>Phan Duy</A>
+    <B>Hoàng Hựu Hà</B>
+    <C>Lê Hữu Lộc</C>
+    <D>Lưu Hữu Phước</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC2</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Betthoven là nhà soạn nhạc nổi tiếng nước nào?</QUESTION>
+    <A>Đức</A>
+    <B>Áo</B>
+    <C>Ý</C>
+    <D>Pháp</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC2</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Có bao nhiêu loài chim được nhắc đến trong bài hát &quot;Thật là hay&quot; của nhạc sĩ Hoàng Lân?</QUESTION>
+    <A>2</A>
+    <B>3</B>
+    <C>4</C>
+    <D>5</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC2</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Có mấy loại nhạc cụ được nhắc đến trong lời bài hát &quot;Chiến sĩ tí hon&quot;?</QUESTION>
+    <A>2</A>
+    <B>3</B>
+    <C>4</C>
+    <D>5</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC2</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong bài hát &quot;Hoa lá mùa xuân&quot; của nhạc sĩ Hoàng Hà, từ &quot;xuân&quot; được lặp đi lặp lại tất cả mấy lần?</QUESTION>
+    <A>2</A>
+    <B>3</B>
+    <C>4</C>
+    <D>5</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+
+  <ProductItem>
+    <SUBJECT>MUSIC2</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Chú ếch con&quot; là sáng tác của nhạc sĩ nào?</QUESTION>
+    <A>Phan Nhân</A>
+    <B>Phan Duy</B>
+    <C>Hoàng Lân</C>
+    <D>Lê Hữu Lộc</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC2</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Bắc kim thang&quot; là dân ca vùng nào?</QUESTION>
+    <A>Bắc Bộ</A>
+    <B>Tây Bắc</B>
+    <C>Trung Bộ</C>
+    <D>Nam Bộ</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC2</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Có mấy loại cây ăn quả được nhắc đến trong lời bài hát &quot;Chim chích bông&quot;?</QUESTION>
+    <A>2</A>
+    <B>3</B>
+    <C>4</C>
+    <D>5</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC2</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Chopin là nhà soạn nhạc nổi tiếng nước nào?</QUESTION>
+    <A>Đức</A>
+    <B>Áo</B>
+    <C>Nga</C>
+    <D>Ba Lan</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>MUSIC3</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Đi cắt lúa&quot; là của dân tộc nào?</QUESTION>
+    <A>Hrê</A>
+    <B>Cơ-ho</B>
+    <C>Ê-đê</C>
+    <D>Ba-na</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+
+
+  <ProductItem>
+    <SUBJECT>MUSIC3</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Tiếng hát bạn bè mình&quot; là sáng tác của nhạc sĩ nào?</QUESTION>
+    <A>Tân Huyền</A>
+    <B>Hoàng Lân</B>
+    <C>Lê Hoàng Minh</C>
+    <D>Phạm Tuyên</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC3</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong bài hát &quot;Cùng múa hát dưới trăng&quot; của nhạc sĩ Hoàng Lân, có mấy loài động vật được nhắc đến?</QUESTION>
+    <A>3</A>
+    <B>4</B>
+    <C>5</C>
+    <D>6</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC3</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Gà gáy&quot; là dân ca dân tộc nào?</QUESTION>
+    <A>Cơ-ho</A>
+    <B>Tày</B>
+    <C>Hrê</C>
+    <D>Cống</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC3</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Tchaikovsky là nhà soạn nhạc nổi tiếng nước nào?</QUESTION>
+    <A>Đức</A>
+    <B>Nga</B>
+    <C>Áo</C>
+    <D>Ba Lan</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC3</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bài hát &quot;Ngày mùa vui&quot; là dân ca của dân tộc nào?</QUESTION>
+    <A>Tày</A>
+    <B>Thái</B>
+    <C>Mông</C>
+    <D>Nùng</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MUSIC3</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Loài chim nào được nhắc đến trong bài hát &quot;Tiếng hát bạn bè mình&quot; của nhạc sĩ Lê Hoàng Minh?</QUESTION>
+    <A>Bồ câu</A>
+    <B>Chim én</B>
+    <C>Sơn ca</C>
+    <D>Vành khuyên</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Chợ nổi trên sông là nét độc đáo của đồng bằng nào?</QUESTION>
+    <A>Bắc Bộ</A>
+    <B>Duyên hải miền Trung</B>
+    <C>Nam Bộ</C>
+    <D>Nam Trung Bộ</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Đồng bằng duyên hải miền Trung nhỏ hẹp vì lý do nào sau đây?</QUESTION>
+    <A>Vì nằm ở ven biển</A>
+    <B>Vì có nhiều cồn cát</B>
+    <C>Vì có nhiều đầm, phá</C>
+    <D>Núi lan ra sát biển</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Cây công nghiệp nào được trồng nhiều nhất ở Tây Nguyên?</QUESTION>
+    <A>Chè</A>
+    <B>Cao su</B>
+    <C>Cà phê</C>
+    <D>Hồ tiêu</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Đồng bằng Bắc Bộ được bồi đắp do phù sa của sông nào?</QUESTION>
+    <A>Sông Đà và sông Thái Bình </A>
+    <B>Sông Hồng và  Sông Thái Bình </B>
+    <C>Sông Hồng và sông Đà</C>
+    <D>Sông Hồng và sông Đuống</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Dãy núi cao và đồ sộ nhất Việt Nam là dãy?</QUESTION>
+    <A>Hoàng Liên Sơn</A>
+    <B>Đông Triều</B>
+    <C>Ngân Sơn</C>
+    <D>Trường Sơn</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Một số dân tộc sống lâu đời ở Tây Nguyên là?</QUESTION>
+    <A>Thái, Mông, Dao</A>
+    <B>Ba-na, Ê-đê, Gia-rai</B>
+    <C>Kinh</C>
+    <D>Tày, Nùng</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong các đảo có tên sau, đảo nào thuộc tỉnh Quảng Nam?</QUESTION>
+    <A>Phú Quốc</A>
+    <B>Cồn Cỏ</B>
+    <C>Cù Lao Chàm</C>
+    <D>Cát Bà</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Loại đất nào có diện tích lớn nhất Ðồng bằng Sông Cửu Long?</QUESTION>
+    <A>Đất phèn</A>
+    <B>Đất đầm lầy</B>
+    <C>Ðất mặn</C>
+    <D>Đất phù sa</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Việt Nam với hơn 4.200 km² biển nội thuỷ, và có bao nhiêu hòn đảo, bãi đá ngầm lớn nhỏ?</QUESTION>
+    <A>Hơn 20</A>
+    <B>Hơn 30</B>
+    <C>Hơn 40</C>
+    <D>Hơn 50</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY4</SUBJECT>
+    <ID>10</ID>
+    <TYPE>0</TYPE>
+    <QUESTION> Sa mạc nào lớn nhất thế Giới?</QUESTION>
+    <A>Sahara</A>
+    <B>Gobi (Mông Cổ)</B>
+    <C>Great Victoria</C>
+    <D>Great Sandy</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Đậu tương, lạc, thuốc lá được trồng nhiều nhất trên loại đất nào? </QUESTION>
+    <A>Đất nhiễm mặn</A>
+    <B>Đất phù sa</B>
+    <C>Đất bạc màu</C>
+    <D>Đất xám</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Biển nội địa nào rộng nhất?</QUESTION>
+    <A>Biển Caspi</A>
+    <B>Thái Bình Dương</B>
+    <C>Biển Hồng Hải</C>
+    <D>Biển Địa Trung Hải</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Châu lục nào gần như toàn bộ các nước đều trồng lúa?</QUESTION>
+    <A>Châu Á</A>
+    <B>Châu Phi</B>
+    <C>Châu Mỹ</C>
+    <D>Châu Âu</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Mật độ dân số thành phố nào đông nhất trong những thành phố sau?</QUESTION>
+    <A>Hà Nội</A>
+    <B>Tokyo</B>
+    <C>New York</C>
+    <D>Moskva</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bạn cho biết tên hệ thống núi lớn nhất thế giới?</QUESTION>
+    <A>Andes</A>
+    <B>Alps</B>
+    <C>Trường Sơn</C>
+    <D>Himalaya</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Sông nào dài thứ ba thế Giới?</QUESTION>
+    <A>Sông Nil</A>
+    <B>Sông Mississippi</B>
+    <C>Sông Amazon</C>
+    <D>Sông Hoàng Hà</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Núi lửa đang hoạt động lớn nhất thế giới hiện nay đang nằm ở đâu?</QUESTION>
+    <A>Indonesia</A>
+    <B>Nhật Bản</B>
+    <C>Philippines</C>
+    <D>Quần đảo Hawaii</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Nhiệt độ thấp nhất trên thế giới (-89 độ C) là ở đâu?</QUESTION>
+    <A>Murmansk, Nga</A>
+    <B>Resolute, Canada</B>
+    <C>Vostok Nam cực</C>
+    <D>Siberia Bắc cực</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Đại dương có diện tích nhỏ nhất trong 5 đại dương trên thế giới?</QUESTION>
+    <A>Thái Bình Dương</A>
+    <B>Đại Tây Dương</B>
+    <C>Ấn Độ Dương</C>
+    <D>Bắc Băng Dương</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>GEOGRAPHY5</SUBJECT>
+    <ID>10</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Quốc gia nào lớn nhất châu Phi?</QUESTION>
+    <A>Nam Phi</A>
+    <B>Sudan</B>
+    <C>Ai Cập</C>
+    <D>Nigeria</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>SCIENCE4</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong bốn loài vượn người, loài nào là bé nhất?</QUESTION>
+    <A>Tinh tinh</A>
+    <B>Đười ươi</B>
+    <C>Vượn</C>
+    <D>Gôrila</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE4</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Đặc điểm nào sau đây không phải của người?</QUESTION>
+    <A>Tay ngắn hơn chân</A>
+    <B>Gót chân không kéo dài ra sau</B>
+    <C>Cột sống có dạng chữ S</C>
+    <D>Có vòm bàn chân</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE4</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong các dạng vượn người, dạng có quan hệ gần gũi với người nhất là?</QUESTION>
+    <A>Vượn</A>
+    <B>Tinh tinh</B>
+    <C>Đười ươi</C>
+    <D>Gôrila</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE4</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Di tích của sinh vật sống trong các thời đại trước đã để lại trong các lớp đất đá được gọi là gì?</QUESTION>
+    <A>Sinh vật cổ</A>
+    <B>Sinh vật nguyên thuỷ</B>
+    <C>Hoá thạch</C>
+    <D>Cổ sinh vật học</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE4</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Khủng long bị tuyệt chủng như thế nào?</QUESTION>
+    <A>Bị con người săn bắn</A>
+    <B>Bị virus tấn công</B>
+    <C>Do thiên thạch va chạm</C>
+    <D>Vì chúng không lớn được</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE4</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Chất gì mà nở ra khi nóng lên và co lại khi lạnh đi?</QUESTION>
+    <A>Nước</A>
+    <B>Chất lỏng</B>
+    <C>Chất khí</C>
+    <D>Ý B và C đều đúng</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE4</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Vật nào tự chiếu sáng?</QUESTION>
+    <A>Mặt trăng</A>
+    <B>Mặt trời</B>
+    <C>Trái đất</C>
+    <D>Mặt trời, ngọn lửa</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trong quang hợp, ánh sáng màu gì có khả năng cung cấp nhiều năng lượng nhất cho cây?</QUESTION>
+    <A>Đều như nhau</A>
+    <B>Tia hồng ngoại và tia cực tím</B>
+    <C>Xanh, đỏ, tím</C>
+    <D>Vàng, lục, da cam</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Loại hạt nào có khả năng tồn tại lâu nhất?</QUESTION>
+    <A>Hạt ngô</A>
+    <B>Hạt ổi</B>
+    <C>Hạt tiêu</C>
+    <D>Hạt hoa súng</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Hành tinh nào có chiều quay không cùng chiều với các hành tinh còn lại?</QUESTION>
+    <A>Trái đất</A>
+    <B>Kim tinh</B>
+    <C>Mộc tinh</C>
+    <D>Thủy tinh</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Mây, song thuộc loại cây thân gì?</QUESTION>
+    <A>Thân thảo</A>
+    <B>Thân gỗ</B>
+    <C>Thân leo</C>
+    <D>Thân bò</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Sự chuyển thể nào xảy ra trong quá trình cất nước?</QUESTION>
+    <A>Nóng chảy và đông đặc </A>
+    <B>Nóng chảy và bay hơi</B>
+    <C>Bay hơi và ngưng tụ</C>
+    <D>Đông đặc và ngưng tụ</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Sự biến đổi hoá học xảy ra trong trường hợp nào dưới đây?</QUESTION>
+    <A>Hoà tan đường vào nước</A>
+    <B>Thả vôi sống vào nước</B>
+    <C>Dây cao su bị kéo dãn ra</C>
+    <D>Cốc thuỷ tinh bị rơi vỡ</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Các cơ quan sinh dục cái và cơ quan sinh dục đực của thực vật có hoa là?</QUESTION>
+    <A>Đài hoa và nhụy hoa</A>
+    <B>Cánh hoa và bao phấn</B>
+    <C>Nhụy và nhị</C>
+    <D>Cả 3 ý trên</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Hổ thường sinh sản vào mùa nào?</QUESTION>
+    <A>Xuân và hạ </A>
+    <B>Đông và xuân</B>
+    <C>Thu và đông</C>
+    <D>Hạ và thu</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Gang và thép là hợp kim của?</QUESTION>
+    <A>Sắt và cacbon</A>
+    <B>Gang và cacbon</B>
+    <C>Thép và cacbon</C>
+    <D>Gang, thép và cácbon</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>SCIENCE5</SUBJECT>
+    <ID>10</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Bệnh viêm gan A lây truyền qua đường nào?</QUESTION>
+    <A>Đường tiêu hóa</A>
+    <B>Đường hô hấp</B>
+    <C>Đường máu</C>
+    <D>Tất cả các ý trên</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Công ước quốc tế về quyền trẻ em là do đơn vị, tổ chức nào soạn thảo và thông qua?</QUESTION>
+    <A>Nhà trường</A>
+    <B>Liên Hiệp Quốc</B>
+    <C>Đội thiếu niên Tiền phong Hồ Chí Minh</C>
+    <D>Chữ thập đỏ</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Cho biết ngày thành lập Đội thiếu niên Tiền phong Hồ Chí Minh?</QUESTION>
+    <A>05-Jul-1941</A>
+    <B>14/5/1945</B>
+    <C>15/5/1945</C>
+    <D>15/5/1941</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trống đồng Đông Sơn là tên một loại trống tiêu biểu cho Văn hóa Đông Sơn của người Việt cổ. Hãy cho biết hiện nay đâu là nơi lưu giữ số lượng trống đồng Đông Sơn lớn nhất Việt Nam?</QUESTION>
+    <A>Bảo tàng dân tộc học Việt Nam</A>
+    <B>Bảo tàng lịch sử Việt Nam</B>
+    <C>Bảo tàng Hà Nội</C>
+    <D>Bảo tàng mỹ thuật Việt Nam</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Câu chuyện nào dưới đây nói lên sức mạnh của sự đoàn kết?</QUESTION>
+    <A>Con quạ thông minh</A>
+    <B>Trí khôn của ta đây</B>
+    <C>Câu chuyện bó đũa</C>
+    <D>Rùa và Thỏ</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ngày Quốc tế thiếu nhi được cho là có nguồn gốc từ đất nước nào?</QUESTION>
+    <A>Thổ Nhĩ Kỳ</A>
+    <B>Mỹ</B>
+    <C>Nga</C>
+    <D>Tây Ban Nha</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Đường bộ có mấy loại dải phân cách?</QUESTION>
+    <A>Loại cố định</A>
+    <B>Loại di động</B>
+    <C>Cả hai loại trên</C>
+    <D>Không loại nào cả</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trên đường giao thông, khi hiệu lệnh của người điều khiển giao thông trái với hiệu lệnh của đèn hoặc biển báo thì người tham gia giao thông phải chấp hành theo hiệu lệnh nào?</QUESTION>
+    <A>Người điều khiển giao thông</A>
+    <B>Đèn điều khiển giao thông</B>
+    <C>Biển báo hiệu đường bộ</C>
+    <D>Cả A và C</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ngày nào hàng năm được lấy là ngày lễ kỷ niệm của phong trào công nhân quốc tế?</QUESTION>
+    <A>8/3 hàng năm</A>
+    <B>20/6 hàng năm</B>
+    <C>19/8 hàng năm</C>
+    <D>1/5 hàng năm</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Một trong những biểu tượng văn hóa của thủ đô Hà Nội ngàn năm văn hiến, nằm trong quần thể di tích lăng Hồ Chí Minh… Đó là công trình kiến trúc nào?</QUESTION>
+    <A>Cột cờ Hà Nội</A>
+    <B>Chùa Một Cột</B>
+    <C>Quốc Tử Giám</C>
+    <D>Lăng Chủ Tịch</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS4</SUBJECT>
+    <ID>10</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Đền Hùng là nơi tưởng nhớ công ơn của tổ tiên đã dựng nên nước Việt. Hãy cho biết hiện tại đền Hùng được đặt trên địa bàn huyện nào của tỉnh Phú Thọ?</QUESTION>
+    <A>Thanh Ba</A>
+    <B>Việt Trì</B>
+    <C>Lâm Thao</C>
+    <D>Yên Lập</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+
+
+
+
+
+
+
+
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>1</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Giờ trái đất năm 2012 diễn ra vào ngày nào?</QUESTION>
+    <A>24/3</A>
+    <B>25/2</B>
+    <C>26/3</C>
+    <D>26/2</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>2</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trụ sở của tổ chức Liên hiệp quốc nằm ở thành phố nào trên thế giới?</QUESTION>
+    <A>London</A>
+    <B>New York</B>
+    <C>Pari</C>
+    <D>Bắc Kinh</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>3</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Liên Hiệp Quốc hiện tại có bao nhiêu thành viên?</QUESTION>
+    <A>193</A>
+    <B>192</B>
+    <C>191</C>
+    <D>194</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>4</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Cho biết ý nghĩa biển báo hình tam giác ngược màu vàng, viền màu đỏ là gì?</QUESTION>
+    <A>Giao nhau với đường ưu tiên</A>
+    <B>Giao nhau với đường không ưu tiên</B>
+    <C>Hết đoạn đường ưu tiên</C>
+    <D>Được quyền ưu tiên qua nơi giao nhau</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>5</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Cho biết ý nghĩa biển báo hình tròn, viền đỏ nền trắng, có gạch chéo, bên trong là mũi tên hướng về phía bên trái?</QUESTION>
+    <A>Được phép rẽ trái</A>
+    <B>Cấm rẽ trái</B>
+    <C>Cấm quay xe</C>
+    <D>Ưu tiên cho xe rẽ trái</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>6</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Có một nhà soạn nhạc đã cho chúng ta thấy lòng yêu nghề, quá trình lao động nghiêm túc và không ngừng nghỉ... dù tai bị điếc nhưng ông vẫn để lại cho nhân loại những sáng tác bất hủ cùng thời gian. Hãy cho biết ông là ai?</QUESTION>
+    <A>Beethoven</A>
+    <B>Tchaikovsky</B>
+    <C>Chopin </C>
+    <D>Mozart</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>7</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Có một vị tổng thống Hoa Kỳ xuất thân từ một gia đình nông dân nghèo khổ, ít học nhưng ông lại được coi là một trong những vị tổng thống vĩ đại nhất trong lịch sử nước Mỹ. Hãy cho biết ông là ai?</QUESTION>
+    <A>Thomas Jefferson</A>
+    <B>Andrrew Jackson</B>
+    <C>Abraham Lincoln</C>
+    <D>Millard Fillmore</D>
+    <ANSWER>C</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>8</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Có một tấm gương bị liệt cả 2 tay từ khi lên 4 tuổi nhưng đã nỗ lực học tập và vượt lên số phận để trở thành một nhà giáo ưu tú viết bằng chân. Tên ông là gì?</QUESTION>
+    <A>Lê Ngọc Ký</A>
+    <B>Nguyễn Minh Trí</B>
+    <C>Nguyễn Minh Phú</C>
+    <D>Nguyễn Ngọc Ký</D>
+    <ANSWER>D</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>9</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Ngày trái đất được Liên Hiệp Quốc chọn là ngày nào trong năm?</QUESTION>
+    <A>22/3</A>
+    <B>22/4</B>
+    <C>23/3</C>
+    <D>24/4</D>
+    <ANSWER>B</ANSWER>
+  </ProductItem>
+
+  <ProductItem>
+    <SUBJECT>MORALS5</SUBJECT>
+    <ID>10</ID>
+    <TYPE>0</TYPE>
+    <QUESTION>Trường đại học đầu tiên của Việt Nam được xây dựng ở thành phố nào?</QUESTION>
+    <A>Hà Nội</A>
+    <B>Huế</B>
+    <C>Nam Định</C>
+    <D>T.P Hồ Chí Minh</D>
+    <ANSWER>A</ANSWER>
+  </ProductItem>
+
+</xml>

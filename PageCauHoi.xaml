@@ -1,0 +1,64 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AiThongMinhHonLop5.PageCauHoi"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="Landscape"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False" Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Height="500">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/bg.png" />
+        </Grid.Background>
+        <MediaElement Height="1" HorizontalAlignment="Left" Margin="10,12,0,0" Name="mebg" VerticalAlignment="Top" Width="1" Volume="2" AutoPlay="True" MediaEnded="mebg_MediaEnded" />
+
+        <Image Height="82" HorizontalAlignment="Left" Margin="184,12,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="554" Source="/Images/speek.png" />
+        <Image Height="125" HorizontalAlignment="Left" Margin="62,0,0,0" Name="imgThanhBach" Stretch="Fill" VerticalAlignment="Top" Width="128" Source="/Images/tb1.png" />
+        <Image Height="359" HorizontalAlignment="Left" Margin="62,121,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="676" Source="/Images/bang.png" />
+        <TextBlock Height="103" HorizontalAlignment="Left" Margin="224,12,0,0" Name="tblLuatChoi" Text="" VerticalAlignment="Top" Width="503" Foreground="#FE000000" FontWeight="Bold" TextWrapping="Wrap" />
+        <Grid Name="grdCauHoi" Visibility="Visible">
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,396,0,0" Name="imgCauhoiA1" Stretch="Fill" VerticalAlignment="Top" Width="231" Source="/Images/frame1.png" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,396,0,0" Name="imgCauhoiB1" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,349,0,0" Name="imgCauhoiA2" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,349,0,0" Name="imgCauhoiB2" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,302,0,0" Name="imgCauhoiA3" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,302,0,0" Name="imgCauhoiB3" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,255,0,0" Name="imgCauhoiA4" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,255,0,0" Name="imgCauhoiB4" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,208,0,0" Name="imgCauhoiA5" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,208,0,0" Name="imgCauhoiB5" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <TextBlock Height="30" Margin="110,396,459,0" Name="tblCauhoiA1" Text="" VerticalAlignment="Top" TextAlignment="Center" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiA1_MouseLeftButtonDown" MouseLeave="tblCauhoiA1_MouseLeave" />
+            <TextBlock Height="30" Margin="110,349,459,0" Name="tblCauhoiA2" Text="" TextAlignment="Center" VerticalAlignment="Top" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiA2_MouseLeftButtonDown" MouseLeave="tblCauhoiA2_MouseLeave" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="110,302,0,0" Name="tblCauhoiA3" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="231" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiA3_MouseLeftButtonDown" MouseLeave="tblCauhoiA3_MouseLeave" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="110,255,0,0" Name="tblCauhoiA4" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="231" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiA4_MouseLeftButtonDown" MouseLeave="tblCauhoiA4_MouseLeave" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="110,208,0,0" Name="tblCauhoiA5" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="231" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiA5_MouseLeftButtonDown" MouseLeave="tblCauhoiA5_MouseLeave" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="458,396,0,0" Name="tblCauhoiB1" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="231" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiB1_MouseLeftButtonDown" MouseLeave="tblCauhoiB1_MouseLeave" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="458,349,0,0" Name="tblCauhoiB2" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="231" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiB2_MouseLeftButtonDown" MouseLeave="tblCauhoiB2_MouseLeave" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="458,302,0,0" Name="tblCauhoiB3" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="231" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiB3_MouseLeftButtonDown" MouseLeave="tblCauhoiB3_MouseLeave" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="458,255,0,0" Name="tblCauhoiB4" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="231" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiB4_MouseLeftButtonDown" MouseLeave="tblCauhoiB4_MouseLeave" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="458,208,0,0" Name="tblCauhoiB5" Text="" TextAlignment="Center" VerticalAlignment="Top" Width="231" Foreground="#FEFFFFFF" MouseLeftButtonDown="tblCauhoiB5_MouseLeftButtonDown" MouseLeave="tblCauhoiB5_MouseLeave" />
+        </Grid>
+
+        <Grid Name="grdDacbiet" Visibility="Collapsed">
+            <Image Height="480" HorizontalAlignment="Left" Name="imgDialogDacbiet" Stretch="Fill" VerticalAlignment="Top" Width="800" Source="/Images/dialog.png" />
+            <TextBlock Height="138" HorizontalAlignment="Left" Margin="246,145,0,0" Name="tblCauHoiDacbiet" Text="Bạn có muốn trả lời câu hỏi đặc biêt?" VerticalAlignment="Top" Width="357" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="iFunSoftFont.TTF#iFunSoftFont" FontSize="40" Foreground="#FEDEFF00" TextAlignment="Center" />
+            <Image Height="49" HorizontalAlignment="Left" Margin="246,289,0,0" Name="imgCoDacbiet" Stretch="Fill" VerticalAlignment="Top" Width="161" Source="/Images/co1.png" MouseLeftButtonDown="imgCoDacbiet_MouseLeftButtonDown" />
+            <Image Height="49" HorizontalAlignment="Right" Margin="0,289,197,0" Name="imgKhongDacbiet" Source="/Images/khong1.png" Stretch="Fill" VerticalAlignment="Top" Width="161" MouseLeftButtonDown="imgKhongDacbiet_MouseLeftButtonDown" />
+        </Grid>
+
+        <Grid Name="grdQuit" Visibility="Collapsed">
+            <Image Height="480" HorizontalAlignment="Left" Name="imgDialogQuit" Stretch="Fill" VerticalAlignment="Top" Width="800" Source="/Images/dialog.png" />
+            <TextBlock Height="138" HorizontalAlignment="Left" Margin="246,145,0,0" Name="tblCauHoiQuit" Text="Bạn có muốn dừng cuộc chơi?" VerticalAlignment="Top" Width="357" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="iFunSoftFont.TTF#iFunSoftFont" FontSize="40" Foreground="#FEDEFF00" TextAlignment="Center" />
+            <Image Height="49" HorizontalAlignment="Left" Margin="246,289,0,0" Name="imgCoQuit" Stretch="Fill" VerticalAlignment="Top" Width="161" Source="/Images/co1.png" MouseLeftButtonDown="imgCoQuit_MouseLeftButtonDown" MouseLeave="imgCoQuit_MouseLeave" />
+            <Image Height="49" HorizontalAlignment="Left" Margin="442,289,0,0" Name="imgKhongQuit" Source="/Images/khong1.png" Stretch="Fill" VerticalAlignment="Top" Width="161" MouseLeftButtonDown="imgKhongQuit_MouseLeftButtonDown" MouseLeave="imgKhongQuit_MouseLeave" />
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>
