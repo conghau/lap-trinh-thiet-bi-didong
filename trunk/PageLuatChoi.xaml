@@ -1,0 +1,119 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AiThongMinhHonLop5.PageLuatChoi"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="Landscape"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False" Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Height="500">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/bg.png" />
+        </Grid.Background>
+        <MediaElement Height="1" HorizontalAlignment="Left" Margin="10,12,0,0" Name="mebg" VerticalAlignment="Top" Width="1" Volume="2" AutoPlay="True" MediaEnded="mebg_MediaEnded" />
+        <Image Height="80" HorizontalAlignment="Left" Margin="744,12,0,0" Name="imgSkip" Stretch="Fill" VerticalAlignment="Top" Width="44" Source="/Images/skip.png" MouseLeftButtonDown="imgSkip_MouseLeftButtonDown" />
+
+        <Image Height="82" HorizontalAlignment="Left" Margin="184,12,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="554" Source="/Images/speek.png" />
+        <Image Height="125" HorizontalAlignment="Left" Margin="62,0,0,0" Name="imgThanhBach" Stretch="Fill" VerticalAlignment="Top" Width="128" Source="/Images/tb1.png" />
+        <TextBlock Height="56" HorizontalAlignment="Left" Margin="224,25,0,0" Name="tblLuatChoi" Text="" VerticalAlignment="Top" Width="503" Foreground="#FE000000" FontWeight="Bold" TextWrapping="Wrap" />
+        <Grid>
+        	<Image Height="359" HorizontalAlignment="Left" Margin="60,131,0,0" x:Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="676" Source="/Images/bang.png" />
+        </Grid>
+        <Grid Name="grdCauHoi" Visibility="Collapsed" d:IsHidden="True">
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,396,0,0" Name="imgCauhoiA1" Stretch="Fill" VerticalAlignment="Top" Width="231" Source="/Images/frame1.png" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,396,0,0" Name="imgCauhoiB1" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,349,0,0" Name="imgCauhoiA2" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,349,0,0" Name="imgCauhoiB2" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,302,0,0" Name="imgCauhoiA3" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,302,0,0" Name="imgCauhoiB3" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,255,0,0" Name="imgCauhoiA4" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,255,0,0" Name="imgCauhoiB4" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,208,0,0" Name="imgCauhoiA5" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,208,0,0" Name="imgCauhoiB5" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,396,0,0" Name="tblCauhoiA1" Text="Toán lớp 1" VerticalAlignment="Top" Width="210" TextAlignment="Center" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,349,0,0" Name="tblCauhoiA2" Text="Toán lớp 2" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,302,0,0" Name="tblCauhoiA3" Text="Toán lớp 3" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,255,0,0" Name="tblCauhoiA4" Text="Toán lớp 4" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,208,0,0" Name="tblCauhoiA5" Text="Đạo đức lớp 5" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,396,0,0" Name="tblCauhoiB1" Text="Tiếng Việt lớp 1" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,349,0,0" Name="tblCauhoiB2" Text="Tự nhiên lớp 2" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,302,0,0" Name="tblCauhoiB3" Text="Tự nhiên lớp 3" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,255,0,0" Name="tblCauhoiB4" Text="Địa lý lớp 4" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,208,0,0" Name="tblCauhoiB5" Text="Khoa học lớp 5" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+        </Grid>
+        <Grid Name="grdTienThuong" Visibility="Collapsed" d:IsHidden="True">
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,396,0,0" Name="imgTienthuong1" Stretch="Fill" VerticalAlignment="Top" Width="231" Source="/Images/frame1.png" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,396,0,0" Name="imgTienthuong6" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,349,0,0" Name="imgTienthuong2" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,349,0,0" Name="imgTienthuong7" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,302,0,0" Name="imgTienthuong3" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,302,0,0" Name="imgTienthuong8" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,255,0,0" Name="imgTienthuong4" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,255,0,0" Name="imgTienthuong9" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="110,208,0,0" Name="imgTienthuong5" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="458,208,0,0" Name="imgTienthuong10" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <Image Height="36" HorizontalAlignment="Left" Margin="286,161,0,0" Name="imgTienthuong11" Source="/Images/frame1.png" Stretch="Fill" VerticalAlignment="Top" Width="231" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,396,0,0" Name="tblTienthuong1" Text="500.000đ" VerticalAlignment="Top" Width="210" TextAlignment="Center" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,349,0,0" Name="tblTienthuong2" Text="1.000.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,302,0,0" Name="tblTienthuong3" Text="1.500.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,255,0,0" Name="tblTienthuong4" Text="2.000.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="120,208,0,0" Name="tblTienthuong5" Text="3.000.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,396,0,0" Name="tblTienthuong6" Text="4.000.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,349,0,0" Name="tblTienthuong7" Text="6.000.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,302,0,0" Name="tblTienthuong8" Text="10.000.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,255,0,0" Name="tblTienthuong9" Text="14.000.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="479,208,0,0" Name="tblTienthuong10" Text="22.000.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="296,162,0,0" Name="tblTienthuong11" Text="50.000.000đ" TextAlignment="Center" VerticalAlignment="Top" Width="210" Foreground="#FEFFFFFF" />
+        </Grid>
+        <Grid Name="grdCacBe" Visibility="Collapsed" d:IsHidden="True">
+            <Image Height="116" HorizontalAlignment="Left" Margin="138,290,0,0" Name="imgBe1" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/Images/be1b.png" />
+            <Image Height="116" HorizontalAlignment="Left" Margin="244,290,0,0" Name="imgBe2" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/Images/be2b.png" />
+            <Image Height="116" HorizontalAlignment="Left" Margin="350,290,0,0" Name="imgBe3" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/Images/be3b.png" />
+            <Image Height="116" HorizontalAlignment="Left" Margin="456,290,0,0" Name="imgBe4" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/Images/be4b.png" />
+            <Image Height="116" HorizontalAlignment="Left" Margin="562,290,0,0" Name="imgBe5" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/Images/be5b.png" />
+            <Image Height="82" HorizontalAlignment="Left" Margin="104,213,0,0" Name="imgThink1" Stretch="Fill" VerticalAlignment="Top" Width="99" Source="/Images/think.png" Visibility="Collapsed" />
+            <TextBlock Height="36" HorizontalAlignment="Left" Margin="104,237,0,0" Name="tblName1" Text="Conan" VerticalAlignment="Top" Foreground="Black" FontWeight="Bold" FontSize="20" Width="99" TextAlignment="Center" Visibility="Collapsed" />
+            <Image Height="82" HorizontalAlignment="Left" Margin="209,213,0,0" Name="imgThink2" Source="/Images/think.png" Stretch="Fill" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="210,237,0,0" Name="tblName2" Text="Doremon" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <Image Height="82" HorizontalAlignment="Left" Margin="315,213,0,0" Name="imgThink3" Source="/Images/think.png" Stretch="Fill" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="316,237,0,0" Name="tblName3" Text="Songoku" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <Image Height="82" HorizontalAlignment="Left" Margin="421,213,0,0" Name="imgThink4" Source="/Images/think.png" Stretch="Fill" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="422,237,0,0" Name="tblName4" Text="Pikachu" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <Image Height="82" HorizontalAlignment="Left" Margin="526,213,0,0" Name="imgThink5" Source="/Images/think.png" Stretch="Fill" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="527,237,0,0" Name="tblName5" Text="Bé Bờm" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+        </Grid>
+		<Grid x:Name="GrdGiaiCuu">
+        	<Image Height="55" HorizontalAlignment="Left" Margin="96,252,0,0" x:Name="imgSaoChep" Stretch="Fill" VerticalAlignment="Top" Width="220" Source="/Images/saochep1.png" Visibility="Collapsed" />
+        	<Image Height="58" HorizontalAlignment="Left" Margin="96,169,0,0" x:Name="imgThamKhao" Source="/Images/thamkhao1.png" Stretch="Fill" VerticalAlignment="Top" Width="220" Visibility="Collapsed" />
+        	<Image Height="98" HorizontalAlignment="Left" Margin="96,337,0,0" x:Name="imgGiaiCuuMayMan" Source="/Images/giaicuumayman1.png" Stretch="Fill" VerticalAlignment="Top" Width="220" Visibility="Collapsed" />
+        	<Image Height="68" HorizontalAlignment="Left" Margin="408,166,0,0" x:Name="imgTieuDeSaoChep" Stretch="Fill" VerticalAlignment="Top" Width="227" Source="/Images/tieudesaochep.png" Visibility="Collapsed" />
+        	<Image Height="70" HorizontalAlignment="Left" Margin="337,252,0,0" x:Name="imgNoiDungSaoChep" Stretch="Fill" VerticalAlignment="Top" Width="364" Source="/Images/noidungsaochep.png" Visibility="Collapsed" />
+        	<Image Height="71" HorizontalAlignment="Left" Margin="397,163,0,0" x:Name="imgTieuDeThamKhao" Stretch="Fill" VerticalAlignment="Top" Width="258" Source="/Images/tieudethamkhao.png" Visibility="Collapsed" />
+        	<Image Height="70" HorizontalAlignment="Left" Margin="359,255,0,0" x:Name="imgNoiDungThamKhao" Stretch="Fill" VerticalAlignment="Top" Width="320" Source="/Images/noidungthamkhao.png" Visibility="Collapsed" />
+        	<Image Height="124" HorizontalAlignment="Left" Margin="407,163,0,0" x:Name="imgTieuDeGiaiCuuMayMan" Stretch="Fill" VerticalAlignment="Top" Width="228" Source="/Images/tieudegiaicuumayman.png" Visibility="Collapsed" />
+        	<Image Height="95" HorizontalAlignment="Left" Margin="341,317,0,0" x:Name="imgNoiDungGiaiCuuMayMan" Stretch="Fill" VerticalAlignment="Top" Width="360" Source="/Images/noidunggiaicuumayman.png" Visibility="Collapsed" />
+        	
+        </Grid>
+        <Grid Name="grdSkip" Visibility="Collapsed">
+            <Image Height="480" HorizontalAlignment="Left" Name="imgDialog" Stretch="Fill" VerticalAlignment="Top" Width="800" Source="/Images/dialog.png" />
+            <TextBlock Height="64" HorizontalAlignment="Left" Margin="246,165,0,0" Name="tblCauHoi" Text="Bạn đã hiểu luật chơi?" VerticalAlignment="Top" Width="357" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" FontSize="40" Foreground="#FEDEFF00" TextAlignment="Center" />
+            <Image Height="49" HorizontalAlignment="Left" Margin="246,289,0,0" Name="imgCo" Stretch="Fill" VerticalAlignment="Top" Width="161" Source="/Images/co1.png" MouseLeftButtonDown="imgCo_MouseLeftButtonDown" MouseLeave="imgCo_MouseLeave" />
+            <Image Height="49" HorizontalAlignment="Left" Margin="442,289,0,0" Name="imgKhong" Source="/Images/khong1.png" Stretch="Fill" VerticalAlignment="Top" Width="161" MouseLeftButtonDown="imgKhong_MouseLeftButtonDown" MouseLeave="imgKhong_MouseLeave" />
+        </Grid>
+        <Grid Name="grdQuit" Visibility="Collapsed">
+            <Image Height="480" HorizontalAlignment="Left" Name="imgDialogQuit" Stretch="Fill" VerticalAlignment="Top" Width="800" Source="/Images/dialog.png" />
+            <TextBlock Height="138" HorizontalAlignment="Left" Margin="246,145,0,0" Name="tblCauHoiQuit" Text="Bạn có muốn dừng cuộc chơi?" VerticalAlignment="Top" Width="357" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle1Style}" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" FontSize="40" Foreground="#FEDEFF00" TextAlignment="Center" />
+            <Image Height="49" HorizontalAlignment="Left" Margin="246,289,0,0" Name="imgCoQuit" Stretch="Fill" VerticalAlignment="Top" Width="161" Source="/Images/co1.png" MouseLeftButtonDown="imgCoQuit_MouseLeftButtonDown" MouseLeave="imgCoQuit_MouseLeave" />
+            <Image Height="49" HorizontalAlignment="Left" Margin="442,289,0,0" Name="imgKhongQuit" Source="/Images/khong1.png" Stretch="Fill" VerticalAlignment="Top" Width="161" MouseLeftButtonDown="imgKhongQuit_MouseLeftButtonDown" MouseLeave="imgKhongQuit_MouseLeave" />
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
