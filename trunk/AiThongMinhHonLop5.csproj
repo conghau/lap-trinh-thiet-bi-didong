@@ -27,7 +27,7 @@
     <SilverlightAppEntry>AiThongMinhHonLop5.App</SilverlightAppEntry>
     <ValidateXaml>true</ValidateXaml>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
-    <ExpressionBlendVersion>5.0.30924.0</ExpressionBlendVersion>
+    <ExpressionBlendVersion>5.0.40218.0</ExpressionBlendVersion>
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -116,6 +116,9 @@
     <Compile Include="page1.xaml.cs">
       <DependentUpon>page1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PageAbout.xaml.cs">
       <DependentUpon>PageAbout.xaml</DependentUpon>
     </Compile>
@@ -158,6 +161,10 @@
     <Page Include="page1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page2.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="PageAbout.xaml">
       <SubType>Designer</SubType>

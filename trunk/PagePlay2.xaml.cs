@@ -392,18 +392,22 @@ namespace AiThongMinhHonLop5
 
         private void TraloiSaiGiaiCuuMayMan()
         {
+            collapse_cauhoi();// an phan cau hoi
+            this.grdShowDA.Visibility = Visibility.Collapsed; // an phan dap an
             this.grdShowGiaiCuu.Visibility = Visibility.Visible;
             if (PagePlay2.RandomNumber(0, 2) == 0)
-            {
-                this.tblDapAnGiaiCuu.Text = "Đáp án của tớ là ";
-                this.tblKetquaGiaiCuu.Text = this.dapandung;
-                this.DapAnGiaiCuu = this.dapandung;
-            }
-            else
             {
                 this.tblDapAnGiaiCuu.Text = "Xin lỗi cậu!";
                 this.tblKetquaGiaiCuu.Text = "Tớ không có câu trả lời!";
             }
+            else
+            {
+               
+                this.tblDapAnGiaiCuu.Text = "Đáp án của tớ là ";
+                this.tblKetquaGiaiCuu.Text = this.dapandung;
+                this.DapAnGiaiCuu = this.dapandung;
+            }
+            
         }
 
         private void SaoChep()
@@ -688,6 +692,7 @@ namespace AiThongMinhHonLop5
             this.grdShowThamKhao.Visibility = Visibility.Collapsed;
             this.visibility_cauhoi();
         }
+       
         public void collapse_cauhoi()
         {
             this.tblCauHoi.Visibility = Visibility.Collapsed;
@@ -696,6 +701,7 @@ namespace AiThongMinhHonLop5
             this.tblChotDapAn.Visibility = Visibility.Collapsed;
             this.imgChotDapAn.Visibility = Visibility.Collapsed;
         }
+        
         public void visibility_cauhoi()
         {
             this.tblCauHoi.Visibility = Visibility.Visible;

@@ -97,3 +97,4 @@ E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Data\DT2.xml
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Properties\WMAppManifest.xml
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\AiThongMinhHonLop5_Debug_AnyCPU.xap
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Score1.xml
+E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\Page2.g.cs

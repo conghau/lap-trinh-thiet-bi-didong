@@ -333,6 +333,8 @@ namespace AiThongMinhHonLop5
 
         private void TraloiSaiGiaiCuuMayMan()
         {
+            collapse_cauhoi();
+            this.grdShowDA.Visibility = Visibility.Collapsed;
             this.grdShowGiaiCuu.Visibility = Visibility.Visible;
             switch (PagePlay.RandomNumber(0, 10))
             {

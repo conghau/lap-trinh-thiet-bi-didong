@@ -345,13 +345,13 @@ namespace AiThongMinhHonLop5
                 List<XmlElement> xmlElements = new List<XmlElement>();
                 xmlElements.Add(new XmlElement { Name = "id", Value = "1" });
                 xmlElements.Add(new XmlElement { Name = "Ten", Value = "Super" });
-                xmlElements.Add(new XmlElement { Name = "Diem", Value = "500000" });
+                xmlElements.Add(new XmlElement { Name = "Diem", Value = "0" });
                 HighScore.HighScore.AddItem("Score.xml","Highscore", "score", xmlElements);
                 
                 xmlElements = new List<XmlElement>();
                 xmlElements.Add(new XmlElement { Name = "id", Value = "2" });
-                xmlElements.Add(new XmlElement { Name = "Ten", Value = "Nik" });
-                xmlElements.Add(new XmlElement { Name = "Diem", Value = "50000000000" });
+                xmlElements.Add(new XmlElement { Name = "Ten", Value = "Zik" });
+                xmlElements.Add(new XmlElement { Name = "Diem", Value = "0" });
                 HighScore.HighScore.AddItem("Score.xml", "Highscore", "score", xmlElements);
                 //AddParam("CVS");
             }
