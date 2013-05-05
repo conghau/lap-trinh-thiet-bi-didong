@@ -35,7 +35,7 @@
         <Image Height="87" HorizontalAlignment="Left" Margin="188,262,0,0" Name="image3" Stretch="Fill" VerticalAlignment="Top" Width="464" Source="/Images/boxname.png" />
         <TextBox Height="93" HorizontalAlignment="Left" Margin="182,262,0,0" Name="txtDA" Text="Nhập vào đáp án không dấu" VerticalAlignment="Top" Width="479" TextAlignment="Right" SelectionForeground="Transparent" BorderBrush="#01FFFFFF" Background="#01FFFFFF" FontSize="32" Foreground="#FFCBDE00" FontWeight="Bold" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" GotFocus="txtName_GotFocus" LostFocus="txtDA_LostFocus" >
         	<TextBox.SelectionBackground>
-        		<SolidColorBrush Color="#FFF1F3F3" Opacity="0"/>
+        		<SolidColorBrush Color="#01FFFFFF" Opacity="0"/>
         	</TextBox.SelectionBackground>
         </TextBox>
 
