@@ -215,4 +215,30 @@ namespace AiThongMinhHonLop5
             }
         }
 
+        public class GetListScoreData
+        {
+            string _id;
+            string _Ten;
+            string _Diem;            
+            public string id { get{return _id;} set{ _id=value;} }
+
+            public string Ten { get{return _Ten;} set{_Ten= value;} }
+
+            public string Diem { get{return _Diem;} set{_Diem = value;} }
+        }
+        public class Param
+        {
+            private string _name = string.Empty;
+            public string value
+            {
+                get { return _name; }
+                set
+                {
+                    _name = value;
+                    
+                }
+            }
+        }
+
+       
 }

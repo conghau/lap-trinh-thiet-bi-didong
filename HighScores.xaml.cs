@@ -8,6 +8,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
+using System.IO.IsolatedStorage;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,10 +19,11 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace AiThongMinhHonLop5
 {
-     public partial class HighScores : PhoneApplicationPage
+    public partial class HighScores : PhoneApplicationPage
     {
         private DispatcherTimer _timerLogo = new DispatcherTimer();
         private bool leftright = false;
@@ -60,24 +63,61 @@ namespace AiThongMinhHonLop5
             }
         }
 
-        private void LoadScore()
-        {
-        }
+     
 
         private void GetScores()
         {
-            try
+            //this.lbxScore.ItemsSource = ReadDataFromXML() ;
+            IsolatedStorageFile myIsolatedStorage = IsolatedStorageFile.GetUserStoreForApplication();
+            if (myIsolatedStorage.FileExists("score.xml"))
             {
-                XDocument xml = XDocument.Load(@"Data\Score.xml");
-                //for(int i=0;i<6;i++)
+                Stream stream = myIsolatedStorage.OpenFile("score.xml", FileMode.Open, FileAccess.ReadWrite);
 
-                var temp = (from p in xml.Descendants("score") orderby p.Element("Diem").Value descending select new GetListData { id = p.Element("id").Value.ToString(), Ten = p.Element("Ten").Value.ToString(), Diem = p.Element("Diem").Value }).Take(3);//where ((string)p.Element("SUBJECT").Value == chude && (string)p.Element("ID").Value == RealID.ToString() && (string)p.Element("TYPE").Value == "1") select p;
-                this.lbxScore.ItemsSource = temp;
+                XDocument xmldoc = XDocument.Load(stream);
+
+                var score = (from query in xmldoc.Descendants("score") orderby (float)query.Element("Diem") descending select new GetListData
+                            {
+                                id = (string)query.Element("id"),
+                                Ten = (string)query.Element("Ten"),
+                                Diem = (string)query.Element("Diem")
+                            }).Take(5);
+
+
+                this.lbxScore.ItemsSource = score;
+                //foreach (var tmp in score)
+                 //   MessageBox.Show(tmp.Diem);
+                stream.Close();
             }
-            catch { }
-
-
+            // ListBox a = new ListBox();
         }
+        //List<GetListData> ReadDataFromXML()
+        //{
+
+        //    List<GetListData> Source = new List<GetListData>();
+
+        //    using (IsolatedStorageFile File = IsolatedStorageFile.GetUserStoreForApplication())
+        //    {
+
+        //        using (IsolatedStorageFileStream FileStream = new IsolatedStorageFileStream("score.xml", System.IO.FileMode.Open, File))
+        //        {
+
+        //            // Trong FileStream thực hiện Deserialize
+
+        //            XmlSerializer serialize = new XmlSerializer(typeof(List<GetListData>));
+
+        //            // Ép kiểu về đúng kiểu ban đầu và Gán lại cho Source 
+
+        //            Source = (List<GetListData>)serialize.Deserialize(FileStream);
+
+        //        }
+
+        //    }
+
+        //    return Source;
+        //}
+
+
+
 
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
@@ -121,7 +161,7 @@ namespace AiThongMinhHonLop5
             this.GetScores();
         }
 
-        [DebuggerNonUserCode]
+        // [DebuggerNonUserCode]
         //public void InitializeComponent()
         //{
         //    if (this._contentLoaded)
@@ -136,7 +176,6 @@ namespace AiThongMinhHonLop5
         //    this.lbxScore = (ListBox)this.FindName("lbxScore");
         //    this.imgUpdate = (Image)this.FindName("imgUpdate");
         //}
-
         public class GetListData
         {
             public string id { get; set; }
@@ -147,3 +186,5 @@ namespace AiThongMinhHonLop5
         }
     }
 }
+    
+
