@@ -18,6 +18,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Resources;
 using System.Windows.Threading;
+using System.Xml.Linq;
+using System.Linq;
+using System.Xml.Serialization;
+using System.Xml;
+using System.Collections.Generic;
+using AiThongMinhHonLop5.HighScore;
 
 namespace AiThongMinhHonLop5
 {
@@ -199,6 +205,7 @@ namespace AiThongMinhHonLop5
                 this.tblText.Text = "Yeah!! Tôi là " + Global.NamePlayer + ". Tôi hôm nay thông minh hơn học sinh lớp 5!";
             }
             this.tblDiem.Text = "Số điểm: " + Global.totalScore.ToString();
+            luuDiem();
         }
 
         private void tblQuayLai_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -237,83 +244,185 @@ namespace AiThongMinhHonLop5
         private void DisableControl()
         {
             this.tblQuayLai.IsHitTestVisible = false;
-           // this.tblGoiDiem.IsHitTestVisible = false;
+            // this.tblGoiDiem.IsHitTestVisible = false;
         }
 
         private void EnableControl()
         {
             this.tblQuayLai.IsHitTestVisible = true;
-         //   this.tblGoiDiem.IsHitTestVisible = true;
+            //   this.tblGoiDiem.IsHitTestVisible = true;
         }
 
-        private void Goidiem()
+       
+        private void luuDiem()
         {
-            this.DisableControl();
-            this.processing.Visibility = Visibility.Visible;
-            WebClient webClient = new WebClient();
-            webClient.OpenReadCompleted += new OpenReadCompletedEventHandler(this.webClient_OpenReadCompleted);
-            webClient.OpenReadAsync(new Uri("http://ifunsoft.net/api/aithongminhhonlop5/sendscore.php?user=" + Global.NamePlayer + "&score=" + Global.totalScore.ToString() + "&d=" + DateTime.Now.Second.ToString(), UriKind.Absolute));
-        }
 
-        private void webClient_OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)
+
+                //XmlWriterSettings xmlWriterSetting = new XmlWriterSettings();
+                //xmlWriterSetting.Indent = true;
+
+                //// Lấy thông tin IsolateStorage
+
+                //using (IsolatedStorageFile isoStorage =
+
+                //    IsolatedStorageFile.GetUserStoreForApplication())
+                //{
+
+                //    // Tạo một FileStream để tạo file hay mở file
+
+                //    using (IsolatedStorageFileStream Stream = new IsolatedStorageFileStream("score.xml", System.IO.FileMode.OpenOrCreate, isoStorage))
+                //    {
+
+                //        XmlSerializer serializer = new XmlSerializer(typeof(List<GetListScoreData>));
+
+                //        using (XmlWriter xmlWriter = XmlWriter.Create(Stream, xmlWriterSetting))
+                //        {
+
+                //            // Viết dữ liệu theo Serialize
+
+                //            serializer.Serialize(xmlWriter, GenerateScoreData());
+
+                //        }
+
+                //    }
+                //}
+           List<XmlElement> xmlElements = new List<XmlElement>();
+           string id = GetLastId("SC");
+           xmlElements.Add(new XmlElement { Name = "id", Value = id });
+           xmlElements.Add(new XmlElement { Name = "Ten", Value = Global.NamePlayer });
+           xmlElements.Add(new XmlElement { Name = "Diem", Value = Global.totalScore.ToString() });
+           HighScore.HighScore.AddItem("Score.xml", "Highscore", "score", xmlElements);
+
+        }
+        private string GetLastId(string paramName)
         {
-            this.processing.Visibility = Visibility.Collapsed;
+            string lastId = GetParam(paramName);
+
+            if (string.IsNullOrEmpty(lastId))
+            {
+                AddParam(paramName, "2");
+                lastId = "1";
+            }
+            else
+            {
+                UpdateParam(paramName, (Convert.ToInt32(lastId) + 1).ToString());
+            }
+
+            return lastId;
+        }
+        public string GetParam(string paramName)
+        {
             try
             {
-                string str = new StreamReader(e.Result).ReadToEnd();
-                if (str != "")
+                var myIsolatedStorage = IsolatedStorageFile.GetUserStoreForApplication();
+
+                if (myIsolatedStorage.FileExists("Params.xml"))
                 {
-                    IsolatedStorageFile storeForApplication = IsolatedStorageFile.GetUserStoreForApplication();
-                    storeForApplication.DeleteFile("AiThongMinhHonLop5\\score.sys");
-                    StreamWriter streamWriter = new StreamWriter((Stream)new IsolatedStorageFileStream("AiThongMinhHonLop5\\score.sys", FileMode.Create, storeForApplication));
-                    streamWriter.WriteLine(str.Trim());
-                    streamWriter.Close();
-                    Global.idchude = 11;
-                    try
+                    Stream stream = myIsolatedStorage.OpenFile("Params.xml", FileMode.Open, FileAccess.ReadWrite);
+
+                    XDocument xmldoc = XDocument.Load(stream);
+
+                    var templates = from query in xmldoc.Descendants(paramName)
+                                    select new Param
+                                    {
+                                        value = (string)query.Value
+                                    };
+
+                    ListBox a = new ListBox();
+                    a.ItemsSource = templates;
+
+                    foreach (Param pr in templates)
                     {
-                        this._timerText.Stop();
-                        this.ambienceInstanceEF.Stop();
+                        stream.Close();
+                        return pr.value;
                     }
-                    catch
-                    {
-                    }
-                    this.NavigationService.GoBack();
+
+                    stream.Close();
+                    return string.Empty;
                 }
                 else
                 {
-                    int num = (int)MessageBox.Show("Lỗi không lấy được dữ liệu từ máy chủ!");
-                    this.EnableControl();
+                    return string.Empty;
                 }
             }
             catch
             {
-                int num = (int)MessageBox.Show("Lỗi kết nối với Server. Có thể hệ thống đang bảo trì hoặc lỗi kết nối mạng của bạn.");
-                this.EnableControl();
+                return string.Empty;
+            }
+        }
+        public void AddParam(string elementName, string value)
+        {
+            var myIsolatedStorage = IsolatedStorageFile.GetUserStoreForApplication();
+            if (!myIsolatedStorage.FileExists("Params.xml"))
+            {
+                using (IsolatedStorageFileStream isoStream = new IsolatedStorageFileStream("Params.xml", FileMode.Create, myIsolatedStorage))
+                {
+                    XmlWriterSettings settings = new XmlWriterSettings();
+                    settings.Indent = true;
+
+                    using (XmlWriter writer = XmlWriter.Create(isoStream, settings))
+                    {
+                        writer.WriteStartElement("params");
+
+                        writer.WriteStartElement(elementName, "");
+                        writer.WriteString(value);
+                        writer.WriteEndElement();
+
+                        writer.WriteEndDocument();
+                        writer.Flush();
+                        writer.Close();
+                    }
+                }
+            }
+            else
+            {
+                XDocument loadedData;
+                using (Stream stream = myIsolatedStorage.OpenFile("Params.xml", FileMode.Open, FileAccess.ReadWrite))
+                {
+                    loadedData = XDocument.Load(stream);
+                    var fav = new XElement(elementName, value);
+                    var root = loadedData.Element("params");
+                    root.AddFirst(fav);
+                }
+
+                // Save To History.xml File 
+                using (IsolatedStorageFileStream myStream = new IsolatedStorageFileStream("Params.xml", FileMode.Create, myIsolatedStorage))
+                {
+                    loadedData.Save(myStream);
+                    myStream.Close();
+                }
             }
         }
 
-        //[DebuggerNonUserCode]
-        //public void InitializeComponent()
-        //{
-        //    if (this._contentLoaded)
-        //        return;
-        //    this._contentLoaded = true;
-        //    Application.LoadComponent((object)this, new Uri("/PageGameOver.xaml", UriKind.Relative));
-        //    this.LayoutRoot = (Grid)this.FindName("LayoutRoot");
-        //    this.mebg = (MediaElement)this.FindName("mebg");
-        //    this.image1 = (Image)this.FindName("image1");
-        //    this.tblText = (TextBlock)this.FindName("tblText");
-        //    this.tblDiem = (TextBlock)this.FindName("tblDiem");
-        //    this.imgGoiDiem = (Image)this.FindName("imgGoiDiem");
-        //    this.imgQuayLai = (Image)this.FindName("imgQuayLai");
-        //    this.tblGoiDiem = (TextBlock)this.FindName("tblGoiDiem");
-        //    this.tblQuayLai = (TextBlock)this.FindName("tblQuayLai");
-        //    this.processing = (ProgressBar)this.FindName("processing");
-        //    this.grdQuit = (Grid)this.FindName("grdQuit");
-        //    this.imgDialogQuit = (Image)this.FindName("imgDialogQuit");
-        //    this.tblCauHoiQuit = (TextBlock)this.FindName("tblCauHoiQuit");
-        //    this.imgCoQuit = (Image)this.FindName("imgCoQuit");
-        //    this.imgKhongQuit = (Image)this.FindName("imgKhongQuit");
-        //}
+        public void UpdateParam(string elementName, string newValue)
+        {
+            var myIsolatedStorage = IsolatedStorageFile.GetUserStoreForApplication();
+            if (myIsolatedStorage.FileExists("Params.xml"))
+            {
+                XDocument loadedData;
+                using (Stream stream = myIsolatedStorage.OpenFile("Params.xml", FileMode.Open, FileAccess.ReadWrite))
+                {
+                    loadedData = XDocument.Load(stream);
+
+                    var root = loadedData.Element("params");
+                    var rows = root.Descendants(elementName);
+
+                    foreach (var row in rows)
+                    {
+                        row.Value = newValue;
+                        break;
+                    }
+                }
+
+                // Save To History.xml File
+                using (IsolatedStorageFileStream myStream = new IsolatedStorageFileStream("Params.xml", FileMode.Create, myIsolatedStorage))
+                {
+                    loadedData.Save(myStream);
+                    myStream.Close();
+                }
+            }
+        }
+
     }
+ 
 }

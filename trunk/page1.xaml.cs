@@ -18,10 +18,14 @@ using Microsoft.Xna.Framework.Media;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
-using System.IO.IsolatedStorage;
+//using System.IO.IsolatedStorage;
 using System.Windows.Media.Imaging;
 using System.Windows.Resources;
 using System.Windows.Threading;
+using System.Xml;
+using System.Xml.Serialization;
+using System.IO.IsolatedStorage;
+using AiThongMinhHonLop5.HighScore;
 
 namespace AiThongMinhHonLop5
 {
@@ -272,6 +276,27 @@ namespace AiThongMinhHonLop5
         //    this.reg = true;
         //    //Global.reg = true;
         //}
+        public class GetListData
+        {
+            //string id;
+            //string Ten;
+            //string Diem;            
+            public string id { get; set; }
+
+            public string Ten { get; set; }
+
+            public string Diem { get; set; }
+        }
+        private List<GetListData> GenerateScoreData()
+        {
+
+            List<GetListData> data = new List<GetListData>();
+
+            data.Add(new GetListData { id = "1", Ten = "Brown", Diem = "50000000" });
+
+            return data;
+
+        }
 
         private void CheckFile()
         {
@@ -283,12 +308,52 @@ namespace AiThongMinhHonLop5
                 streamWriter.WriteLine("000000");
                 streamWriter.Close();
             }
-            if (!storeForApplication.FileExists("AiThongMinhHonLop5\\score.sys"))
+            if (!storeForApplication.FileExists("score.xml"))
             {
-                //storeForApplication.CreateDirectory("AiThongMinhHonLop5");
-                //StreamWriter streamWriter = new StreamWriter((Stream)new IsolatedStorageFileStream("AiThongMinhHonLop5\\score.sys", FileMode.Create, storeForApplication));
+                // storeForApplication.CreateDirectory("AiThongMinhHonLop5");
+                //StreamWriter streamWriter = new StreamWriter((Stream)new IsolatedStorageFileStream("score.xml", FileMode.Create, storeForApplication));
                 //streamWriter.WriteLine("");
                 //streamWriter.Close();
+                //XmlWriterSettings xmlWriterSetting = new XmlWriterSettings();
+                //xmlWriterSetting.Indent = true;
+
+                //  // Lấy thông tin IsolateStorage
+
+                //  using (IsolatedStorageFile isoStorage =
+
+                //      IsolatedStorageFile.GetUserStoreForApplication())
+                //  {
+
+                //      // Tạo một FileStream để tạo file hay mở file
+
+                //      using (IsolatedStorageFileStream Stream = new IsolatedStorageFileStream("score.xml", System.IO.FileMode.OpenOrCreate, isoStorage))
+                //      {
+
+                //          XmlSerializer serializer = new XmlSerializer(typeof(List<GetListData>));
+
+                //          using (XmlWriter xmlWriter = XmlWriter.Create(Stream, xmlWriterSetting))
+                //          {
+
+                //              // Viết dữ liệu theo Serialize
+
+                //              serializer.Serialize(xmlWriter, GenerateScoreData());
+
+                //          }
+
+                //      }
+                //  }
+                List<XmlElement> xmlElements = new List<XmlElement>();
+                xmlElements.Add(new XmlElement { Name = "id", Value = "1" });
+                xmlElements.Add(new XmlElement { Name = "Ten", Value = "Super" });
+                xmlElements.Add(new XmlElement { Name = "Diem", Value = "500000" });
+                HighScore.HighScore.AddItem("Score.xml","Highscore", "score", xmlElements);
+                
+                xmlElements = new List<XmlElement>();
+                xmlElements.Add(new XmlElement { Name = "id", Value = "2" });
+                xmlElements.Add(new XmlElement { Name = "Ten", Value = "Nik" });
+                xmlElements.Add(new XmlElement { Name = "Diem", Value = "50000000000" });
+                HighScore.HighScore.AddItem("Score.xml", "Highscore", "score", xmlElements);
+                //AddParam("CVS");
             }
             if (!storeForApplication.FileExists("AiThongMinhHonLop5\\0MATHEMATIC1.sys"))
             {

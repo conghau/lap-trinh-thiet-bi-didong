@@ -1,13 +1,8 @@
-﻿<xapCache source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\AiThongMinhHonLop5.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="4/17/2013 10:43:17 AM">
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="3/19/2013 12:33:26 AM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Background.png" archivePath="Background.png" lastWriteTime="3/15/2013 10:55:37 AM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="3/15/2013 10:55:37 AM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\AiThongMinhHonLop5.dll" archivePath="AiThongMinhHonLop5.dll" lastWriteTime="4/17/2013 10:43:15 AM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="8/17/2011 1:48:22 AM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="8/17/2011 1:48:22 AM" />
+﻿<xapCache source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\AiThongMinhHonLop5_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="5/5/2013 1:40:36 AM">
+  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\AiThongMinhHonLop5.dll" archivePath="AiThongMinhHonLop5.dll" lastWriteTime="5/5/2013 1:40:33 AM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Data\DT1.xml" archivePath="Data\DT1.xml" lastWriteTime="4/9/2013 3:12:47 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Data\DT2.xml" archivePath="Data\DT2.xml" lastWriteTime="3/15/2013 11:32:07 PM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Data\Score.xml" archivePath="Data\Score.xml" lastWriteTime="3/19/2013 9:31:30 AM" />
+  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Score1.xml" archivePath="Score1.xml" lastWriteTime="3/19/2013 9:31:30 AM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\a1.png" archivePath="Images\a1.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\a2.png" archivePath="Images\a2.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\a3.png" archivePath="Images\a3.png" lastWriteTime="3/16/2013 10:32:39 PM" />
@@ -158,10 +153,12 @@
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\sound\Win1.mp3" archivePath="sound\Win1.mp3" lastWriteTime="3/15/2013 7:24:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\sound\Win2.mp3" archivePath="sound\Win2.mp3" lastWriteTime="3/15/2013 7:24:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="4/9/2013 8:34:55 PM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Data\DT1.xml" archivePath="Data\DT1.xml" lastWriteTime="4/9/2013 3:12:47 PM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Data\DT2.xml" archivePath="Data\DT2.xml" lastWriteTime="3/15/2013 11:32:07 PM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Data\Score.xml" archivePath="Data\Score.xml" lastWriteTime="3/19/2013 9:31:30 AM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Font\UVNDaLat.TTF" archivePath="Font\UVNDaLat.TTF" lastWriteTime="3/19/2013 11:00:38 AM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="3/15/2013 10:55:37 AM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="3/15/2013 10:55:37 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="8/17/2011 1:48:22 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="8/17/2011 1:48:22 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\Microsoft.Expression.Interactions.xml" archivePath="Microsoft.Expression.Interactions.xml" lastWriteTime="8/17/2011 1:30:38 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\System.Windows.Interactivity.xml" archivePath="System.Windows.Interactivity.xml" lastWriteTime="8/17/2011 1:30:36 AM" />
+  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="5/3/2013 9:53:41 PM" />
 </xapCache>
