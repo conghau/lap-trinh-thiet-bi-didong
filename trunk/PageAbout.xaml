@@ -18,28 +18,27 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/bg.png" />
         </Grid.Background>
-        <Image Height="395" HorizontalAlignment="Left" Margin="136,52,0,0" Name="imgLogo" Stretch="Fill" VerticalAlignment="Top" Width="538" Source="/Images/a1.png" />
-        <MediaElement Height="1" HorizontalAlignment="Left" Margin="10,12,0,0" Name="mebg" VerticalAlignment="Top" Width="1" Volume="2" AutoPlay="True" MediaEnded="mebg_MediaEnded" />
-        <Rectangle Height="480" HorizontalAlignment="Left" Name="rectangle1" Stroke="#89000000" StrokeThickness="1" VerticalAlignment="Top" Width="800" Fill="#AD000000" />
-        <Image Height="1810" HorizontalAlignment="Left" Name="imgAb1" Stretch="Fill" VerticalAlignment="Top" Width="800" Source="/Images/imgAbout1.png" Margin="0,440,0,0">
-            <Image.Projection>
-                <PlaneProjection x:Name="TargetAbout1"/>
-            </Image.Projection>
+        <Image HorizontalAlignment="Left" Margin="12,12,0,32" x:Name="image1" Stretch="Fill" Width="776" Source="/Images/bang.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+        	<Image.RenderTransform>
+        		<CompositeTransform Rotation="-0.043"/>
+        	</Image.RenderTransform>
         </Image>
-        <Image Height="1530" HorizontalAlignment="Left" Name="imgAb2" Stretch="Fill" VerticalAlignment="Top" Width="800" Source="/Images/imgAbout2.png" Margin="0,2250,0,0">
-            <Image.Projection>
-                <PlaneProjection x:Name="TargetAbout2"/>
-            </Image.Projection>
-        </Image>
-        <Image Height="1660" HorizontalAlignment="Left" Name="imgAb3" Stretch="Fill" VerticalAlignment="Top" Width="800" Source="/Images/imgAbout3.png" Margin="0,3780,0,0">
-            <Image.Projection>
-                <PlaneProjection x:Name="TargetAbout3"/>
-            </Image.Projection>
-        </Image>
-
-        <Image Height="55" HorizontalAlignment="Left" Margin="733,128,0,0" Name="imgVisit" Stretch="Fill" VerticalAlignment="Top" Width="55" Source="/Images/imgvisit.png" MouseLeftButtonDown="imgVisit_MouseLeftButtonDown" />
-        <Image Height="55" HorizontalAlignment="Left" Margin="733,194,0,0" Name="imgMoreApp" Source="/Images/imgMoreApp.png" Stretch="Fill" VerticalAlignment="Top" Width="55" MouseLeftButtonDown="imgMoreApp_MouseLeftButtonDown" />
-        <Image Height="55" HorizontalAlignment="Left" Margin="733,260,0,0" Name="imgRateApp" Source="/Images/imgRateApp.png" Stretch="Fill" VerticalAlignment="Top" Width="55" MouseLeftButtonDown="imgRateApp_MouseLeftButtonDown" />
+         <MediaElement Height="1" HorizontalAlignment="Left" Margin="10,12,0,0" x:Name="mebg" VerticalAlignment="Top" Width="1" Volume="2" AutoPlay="True" MediaEnded="mebg_MediaEnded" d:IsHidden="True" />
+        <TextBlock HorizontalAlignment="Left" Height="89" Margin="57,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="637" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" FontSize="56">
+        	<Run FontSize="65" Text="          Sinh viên thực hiện "/>
+        	<LineBreak/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="253" Margin="158,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="592">
+        	<Run Foreground="#FFC0C90A" FontSize="56" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" Text="09520396"/>
+        	<Run FontSize="56" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" Text=" : Võ Tiến An"/>
+        	<LineBreak FontSize="56" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat"/>
+        	<Run Foreground="#FFC0C90A" FontSize="56" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" Text="09520406"/>
+        	<Run FontSize="56" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" Text=" : Trương Công Hậu"/>
+        	<LineBreak FontSize="56" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat"/>
+        	<Run Foreground="#FFC0C90A" FontSize="56" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" Text="09520407"/>
+        	<Run FontSize="56" FontFamily="/Font/UVNDaLat.TTF#UVN Da Lat" Text=" : Trần Công Hậu"/>
+        </TextBlock>
+        <Image Height="55" HorizontalAlignment="Left" Margin="699,35,0,0" x:Name="imgBack" Stretch="Fill" VerticalAlignment="Top" Width="55" Source="skip.png" MouseLeftButtonDown="imgBack_MouseLeftButtonDown" />
     </Grid>
 
 </phone:PhoneApplicationPage>

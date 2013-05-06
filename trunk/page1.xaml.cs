@@ -814,6 +814,7 @@ namespace AiThongMinhHonLop5
         {
             this.Vibrate();
            // this.grdAbout.Visibility = Visibility.Visible;
+            this.NavigationService.Navigate(new Uri("/PageAbout.xaml",UriKind.Relative));
             this.About = true;
         }
 
