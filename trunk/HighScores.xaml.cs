@@ -1,8 +1,4 @@
-﻿// Type: AiThongMinhHonLop5.HighScore
-// Assembly: AiThongMinhHonLop5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// Assembly location: E:\HK9\LTDD\HocSinhLop5BK\AiThongMinhHonLop5\AiThongMinhHonLop5\AiThongMinhHonLop5\Bin\Debug\AiThongMinhHonLop5.dll
-
-using Microsoft.Devices;
+﻿using Microsoft.Devices;
 using Microsoft.Phone.Controls;
 using System;
 using System.Collections;
