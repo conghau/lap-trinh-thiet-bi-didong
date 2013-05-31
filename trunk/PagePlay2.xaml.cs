@@ -163,7 +163,7 @@ namespace AiThongMinhHonLop5
                 StreamResourceInfo resourceStream = Application.GetResourceStream(new Uri(SoundFilePath, UriKind.Relative));
                 Sound = SoundEffect.FromStream(resourceStream.Stream);
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
             }
         }
@@ -177,7 +177,7 @@ namespace AiThongMinhHonLop5
                 this.LoadSoundEF(SoundFilePath, out Sound);
                 SoundInstance = Sound.CreateInstance();
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
             }
         }

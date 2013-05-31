@@ -1,8 +1,4 @@
-﻿// Type: AiThongMinhHonLop5.PageGameOver
-// Assembly: AiThongMinhHonLop5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// Assembly location: E:\HK9\AiThongMinhHonLop5BK_2\AiThongMinhHonLop5.dll
-
-using Microsoft.Devices;
+﻿using Microsoft.Devices;
 using Microsoft.Phone.Controls;
 using Microsoft.Xna.Framework.Audio;
 using System;
@@ -35,22 +31,7 @@ namespace AiThongMinhHonLop5
         private bool Quit = false;
         private SoundEffect ambienceSoundEF;
         private SoundEffectInstance ambienceInstanceEF;
-        //internal Grid LayoutRoot;
-        //internal MediaElement mebg;
-        //internal Image image1;
-        //internal TextBlock tblText;
-        //internal TextBlock tblDiem;
-        //internal Image imgGoiDiem;
-        //internal Image imgQuayLai;
-        //internal TextBlock tblGoiDiem;
-        //internal TextBlock tblQuayLai;
-        //internal ProgressBar processing;
-        //internal Grid grdQuit;
-        //internal Image imgDialogQuit;
-        //internal TextBlock tblCauHoiQuit;
-        //internal Image imgCoQuit;
-        //internal Image imgKhongQuit;
-        //private bool _contentLoaded;
+
 
         public PageGameOver()
         {
@@ -97,7 +78,7 @@ namespace AiThongMinhHonLop5
                 StreamResourceInfo resourceStream = Application.GetResourceStream(new Uri(SoundFilePath, UriKind.Relative));
                 Sound = SoundEffect.FromStream(resourceStream.Stream);
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
             }
         }
@@ -111,7 +92,7 @@ namespace AiThongMinhHonLop5
                 this.LoadSoundEF(SoundFilePath, out Sound);
                 SoundInstance = Sound.CreateInstance();
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
             }
         }
@@ -228,18 +209,6 @@ namespace AiThongMinhHonLop5
             }
             this.NavigationService.GoBack();
         }
-
-        //private void tblGoiDiem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        //{
-        //    this.Vibrate();
-        //    this.imgGoiDiem.Source = (ImageSource)new BitmapImage(new Uri("/Images/tracnghiem2.png", UriKind.RelativeOrAbsolute));
-        //}
-
-        //private void tblGoiDiem_MouseLeave(object sender, MouseEventArgs e)
-        //{
-        //    this.imgGoiDiem.Source = (ImageSource)new BitmapImage(new Uri("/Images/tracnghiem1.png", UriKind.RelativeOrAbsolute));
-        //    this.Goidiem();
-        //}
 
         private void DisableControl()
         {

@@ -1,8 +1,4 @@
-﻿// Type: AiThongMinhHonLop5.PageCauHoi
-// Assembly: AiThongMinhHonLop5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// Assembly location: E:\HK9\AiThongMinhHonLop5BK_2\AiThongMinhHonLop5.dll
-
-using Microsoft.Devices;
+﻿using Microsoft.Devices;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Tasks;
 using Microsoft.Xna.Framework.Audio;
@@ -43,44 +39,7 @@ namespace AiThongMinhHonLop5
         private string RealChude = "";
         private int RealType = -1;
         private bool Quit = false;
-        //internal Grid LayoutRoot;
-        //internal MediaElement mebg;
-        //internal Image image2;
-        //internal Image imgThanhBach;
-        //internal Image image1;
-        //internal TextBlock tblLuatChoi;
-        //internal Grid grdCauHoi;
-        //internal Image imgCauhoiA1;
-        //internal Image imgCauhoiB1;
-        //internal Image imgCauhoiA2;
-        //internal Image imgCauhoiB2;
-        //internal Image imgCauhoiA3;
-        //internal Image imgCauhoiB3;
-        //internal Image imgCauhoiA4;
-        //internal Image imgCauhoiB4;
-        //internal Image imgCauhoiA5;
-        //internal Image imgCauhoiB5;
-        //internal TextBlock tblCauhoiA1;
-        //internal TextBlock tblCauhoiA2;
-        //internal TextBlock tblCauhoiA3;
-        //internal TextBlock tblCauhoiA4;
-        //internal TextBlock tblCauhoiA5;
-        //internal TextBlock tblCauhoiB1;
-        //internal TextBlock tblCauhoiB2;
-        //internal TextBlock tblCauhoiB3;
-        //internal TextBlock tblCauhoiB4;
-        //internal TextBlock tblCauhoiB5;
-        //internal Grid grdDacbiet;
-        //internal Image imgDialogDacbiet;
-        //internal TextBlock tblCauHoiDacbiet;
-        //internal Image imgCoDacbiet;
-        //internal Image imgKhongDacbiet;
-        //internal Grid grdQuit;
-        //internal Image imgDialogQuit;
-        //internal TextBlock tblCauHoiQuit;
-        //internal Image imgCoQuit;
-        //internal Image imgKhongQuit;
-        //private bool _contentLoaded;
+        
         private SoundEffect ambienceSoundEF;
         private SoundEffectInstance ambienceInstanceEF;
 
@@ -93,52 +52,7 @@ namespace AiThongMinhHonLop5
             this._timerText.Interval = TimeSpan.FromSeconds(1.0);
         }
 
-        //[DebuggerNonUserCode]
-        //public void InitializeComponent()
-        //{
-        //    if (this._contentLoaded)
-        //        return;
-        //    this._contentLoaded = true;
-        //    Application.LoadComponent((object)this, new Uri("/PageCauHoi.xaml", UriKind.Relative));
-        //    this.LayoutRoot = (Grid)this.FindName("LayoutRoot");
-        //    this.mebg = (MediaElement)this.FindName("mebg");
-        //    this.image2 = (Image)this.FindName("image2");
-        //    this.imgThanhBach = (Image)this.FindName("imgThanhBach");
-        //    this.image1 = (Image)this.FindName("image1");
-        //    this.tblLuatChoi = (TextBlock)this.FindName("tblLuatChoi");
-        //    this.grdCauHoi = (Grid)this.FindName("grdCauHoi");
-        //    this.imgCauhoiA1 = (Image)this.FindName("imgCauhoiA1");
-        //    this.imgCauhoiB1 = (Image)this.FindName("imgCauhoiB1");
-        //    this.imgCauhoiA2 = (Image)this.FindName("imgCauhoiA2");
-        //    this.imgCauhoiB2 = (Image)this.FindName("imgCauhoiB2");
-        //    this.imgCauhoiA3 = (Image)this.FindName("imgCauhoiA3");
-        //    this.imgCauhoiB3 = (Image)this.FindName("imgCauhoiB3");
-        //    this.imgCauhoiA4 = (Image)this.FindName("imgCauhoiA4");
-        //    this.imgCauhoiB4 = (Image)this.FindName("imgCauhoiB4");
-        //    this.imgCauhoiA5 = (Image)this.FindName("imgCauhoiA5");
-        //    this.imgCauhoiB5 = (Image)this.FindName("imgCauhoiB5");
-        //    this.tblCauhoiA1 = (TextBlock)this.FindName("tblCauhoiA1");
-        //    this.tblCauhoiA2 = (TextBlock)this.FindName("tblCauhoiA2");
-        //    this.tblCauhoiA3 = (TextBlock)this.FindName("tblCauhoiA3");
-        //    this.tblCauhoiA4 = (TextBlock)this.FindName("tblCauhoiA4");
-        //    this.tblCauhoiA5 = (TextBlock)this.FindName("tblCauhoiA5");
-        //    this.tblCauhoiB1 = (TextBlock)this.FindName("tblCauhoiB1");
-        //    this.tblCauhoiB2 = (TextBlock)this.FindName("tblCauhoiB2");
-        //    this.tblCauhoiB3 = (TextBlock)this.FindName("tblCauhoiB3");
-        //    this.tblCauhoiB4 = (TextBlock)this.FindName("tblCauhoiB4");
-        //    this.tblCauhoiB5 = (TextBlock)this.FindName("tblCauhoiB5");
-        //    this.grdDacbiet = (Grid)this.FindName("grdDacbiet");
-        //    this.imgDialogDacbiet = (Image)this.FindName("imgDialogDacbiet");
-        //    this.tblCauHoiDacbiet = (TextBlock)this.FindName("tblCauHoiDacbiet");
-        //    this.imgCoDacbiet = (Image)this.FindName("imgCoDacbiet");
-        //    this.imgKhongDacbiet = (Image)this.FindName("imgKhongDacbiet");
-        //    this.grdQuit = (Grid)this.FindName("grdQuit");
-        //    this.imgDialogQuit = (Image)this.FindName("imgDialogQuit");
-        //    this.tblCauHoiQuit = (TextBlock)this.FindName("tblCauHoiQuit");
-        //    this.imgCoQuit = (Image)this.FindName("imgCoQuit");
-        //    this.imgKhongQuit = (Image)this.FindName("imgKhongQuit");
-        //}
-
+       
         private void _timerThanhBach_Tick(object sender, EventArgs e)
         {
             this.rTB = !this.rTB;
@@ -329,7 +243,7 @@ namespace AiThongMinhHonLop5
                 StreamResourceInfo resourceStream = Application.GetResourceStream(new Uri(SoundFilePath, UriKind.Relative));
                 Sound = SoundEffect.FromStream(resourceStream.Stream);
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
             }
         }
@@ -343,7 +257,7 @@ namespace AiThongMinhHonLop5
                 this.LoadSoundEF(SoundFilePath, out Sound);
                 SoundInstance = Sound.CreateInstance();
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException )
             {
             }
         }

@@ -49,7 +49,10 @@ C:\Users\CONGHAU\documents\visual studio 2012\Projects\AiThongMinhHonLop5\AiThon
 C:\Users\CONGHAU\documents\visual studio 2012\Projects\AiThongMinhHonLop5\AiThongMinhHonLop5\AiThongMinhHonLop5\obj\Debug\XapCacheFile.xml
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\ApplicationIcon.png
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Background.png
+E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Data\DT1.xml
+E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Data\DT2.xml
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Score1.xml
+E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Font\UVNDaLat.TTF
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\AiThongMinhHonLop5.dll
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\AiThongMinhHonLop5.pdb
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\AppManifest.xaml
@@ -85,7 +88,6 @@ E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\PageCacBe.g.cs
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\PageCauHoi.g.cs
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\PageFlash.g.cs
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\PageGameOver.g.cs
-E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\PageGioiThieuGameShow.g.cs
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\PageLuatChoi.g.cs
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\PagePlay.g.cs
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\PagePlay2.g.cs
@@ -93,6 +95,4 @@ E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\AiThongMinhHonLop5.g.resources
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\AiThongMinhHonLop5.dll
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\AiThongMinhHonLop5.pdb
 E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\XapCacheFile.xml
-E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Data\DT1.xml
-E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Data\DT2.xml
-E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\Font\UVNDaLat.TTF
+E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\AiThongMinhHonLop5.csprojResolveAssemblyReference.cache
