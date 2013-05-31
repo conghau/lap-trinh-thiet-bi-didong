@@ -172,7 +172,7 @@ namespace AiThongMinhHonLop5
             this.imgRoundBe.Source = (ImageSource)new BitmapImage(new Uri("/Images/roundBe2.png", UriKind.RelativeOrAbsolute));
             this.imgBe2.Source = (ImageSource)new BitmapImage(new Uri("/Images/be2b.png", UriKind.RelativeOrAbsolute));
             this.tblTenDongDoi.Text = "NAM";
-            this.tblSothich.Text = "Ăn bán rán và đọc truyện tranh";
+            this.tblSothich.Text = "Đá bóng và đọc truyện tranh";
             this.tblMonhocyeuthich.Text = "Khoa học & Âm nhạc";
         }
 
@@ -202,7 +202,7 @@ namespace AiThongMinhHonLop5
             this.imgRoundBe.Source = (ImageSource)new BitmapImage(new Uri("/Images/roundBe4.png", UriKind.RelativeOrAbsolute));
             this.imgBe4.Source = (ImageSource)new BitmapImage(new Uri("/Images/be4b.png", UriKind.RelativeOrAbsolute));
             this.tblTenDongDoi.Text = "HƯƠNG";
-            this.tblSothich.Text = "xxx";
+            this.tblSothich.Text = "Hát và đọc truyện";
             this.tblMonhocyeuthich.Text = "Tự nhiên & Âm nhạc";
         }
 
@@ -217,7 +217,7 @@ namespace AiThongMinhHonLop5
             this.imgRoundBe.Source = (ImageSource)new BitmapImage(new Uri("/Images/roundBe5.png", UriKind.RelativeOrAbsolute));
             this.imgBe5.Source = (ImageSource)new BitmapImage(new Uri("/Images/be5b.png", UriKind.RelativeOrAbsolute));
             this.tblTenDongDoi.Text = "BẢO";
-            this.tblSothich.Text = "xyz";
+            this.tblSothich.Text = "Bơi và đọc sách lịch sử";
             this.tblMonhocyeuthich.Text = "Tiếng Việt & Lịch sử";
         }
 

@@ -80,15 +80,15 @@
             <Image Height="116" HorizontalAlignment="Left" Margin="456,290,0,0" Name="imgBe4" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/Images/be4b.png" />
             <Image Height="116" HorizontalAlignment="Left" Margin="562,290,0,0" Name="imgBe5" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/Images/be5b.png" />
             <Image Height="82" HorizontalAlignment="Left" Margin="104,213,0,0" Name="imgThink1" Stretch="Fill" VerticalAlignment="Top" Width="99" Source="/Images/think.png" Visibility="Collapsed" />
-            <TextBlock Height="36" HorizontalAlignment="Left" Margin="104,237,0,0" Name="tblName1" Text="Conan" VerticalAlignment="Top" Foreground="Black" FontWeight="Bold" FontSize="20" Width="99" TextAlignment="Center" Visibility="Collapsed" />
+            <TextBlock Height="36" HorizontalAlignment="Left" Margin="104,237,0,0" Name="tblName1" Text="Hanh" VerticalAlignment="Top" Foreground="Black" FontWeight="Bold" FontSize="20" Width="99" TextAlignment="Center" Visibility="Collapsed" />
             <Image Height="82" HorizontalAlignment="Left" Margin="209,213,0,0" Name="imgThink2" Source="/Images/think.png" Stretch="Fill" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
-            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="210,237,0,0" Name="tblName2" Text="Doremon" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="210,237,0,0" Name="tblName2" Text="Nam" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
             <Image Height="82" HorizontalAlignment="Left" Margin="315,213,0,0" Name="imgThink3" Source="/Images/think.png" Stretch="Fill" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
-            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="316,237,0,0" Name="tblName3" Text="Songoku" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="316,237,0,0" Name="tblName3" Text="Duc" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
             <Image Height="82" HorizontalAlignment="Left" Margin="421,213,0,0" Name="imgThink4" Source="/Images/think.png" Stretch="Fill" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
-            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="422,237,0,0" Name="tblName4" Text="Pikachu" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="422,237,0,0" Name="tblName4" Text="Huong" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
             <Image Height="82" HorizontalAlignment="Left" Margin="526,213,0,0" Name="imgThink5" Source="/Images/think.png" Stretch="Fill" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
-            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="527,237,0,0" Name="tblName5" Text="Bé Bờm" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
+            <TextBlock FontSize="20" FontWeight="Bold" Foreground="Black" Height="36" HorizontalAlignment="Left" Margin="527,237,0,0" Name="tblName5" Text="Bao" TextAlignment="Center" VerticalAlignment="Top" Width="99" Visibility="Collapsed" />
         </Grid>
 		<Grid x:Name="GrdGiaiCuu">
         	<Image Height="55" HorizontalAlignment="Left" Margin="96,252,0,0" x:Name="imgSaoChep" Stretch="Fill" VerticalAlignment="Top" Width="220" Source="/Images/saochep1.png" Visibility="Collapsed" />
