@@ -7,10 +7,6 @@ using System.Windows.Threading;
 
 namespace AiThongMinhHonLop5
 {
-    // Type: AiThongMinhHonLop5.Global
-    // Assembly: AiThongMinhHonLop5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-    // Assembly location: E:\HK9\AiThongMinhHonLop5BK_2\AiThongMinhHonLop5.dll
-    
         public class Global
         {
             public static int lanchon { get; set; }
@@ -23,6 +19,7 @@ namespace AiThongMinhHonLop5
 
             public static bool vibrate { get; set; }
 
+            // dùng để gọi các màn hình theo id
             public static int idchude { get; set; }
 
             public static int totalScore { get; set; }
@@ -129,13 +126,10 @@ namespace AiThongMinhHonLop5
 
             static Global()
             {
-              //  Global.reg = false;
-              //  Global.trial = true;
                 Global.sound = true;
                 Global.vibrate = true;
                 Global.idchude = 1;
                 Global.totalScore = 0;
-               // Global.imei = "";
                 Global.Notification = "";
                 Global.lanchon = 0;
                 Global.ChonA1 = false;
@@ -184,8 +178,6 @@ namespace AiThongMinhHonLop5
                 Global.GiaiCuuSaoChep = false;
                 Global.NamePlayer = "";
                 Global.Win = false;
-              //  Global.syntaxsms = "MUA HOCSINHLOP5";
-               // Global.portsms = "8771";
             }
         }
 

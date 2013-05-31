@@ -1,8 +1,4 @@
-﻿// Type: AiThongMinhHonLop5.PagePlay
-// Assembly: AiThongMinhHonLop5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// Assembly location: E:\HK9\AiThongMinhHonLop5BK_2\AiThongMinhHonLop5.dll
-
-using Microsoft.Devices;
+﻿using Microsoft.Devices;
 using Microsoft.Phone.Controls;
 using Microsoft.Xna.Framework.Audio;
 using System;
@@ -39,58 +35,7 @@ namespace AiThongMinhHonLop5
         private bool DaChonTroGiup = false;
         private SoundEffect ambienceSoundEF;
         private SoundEffectInstance ambienceInstanceEF;
-        //internal Grid LayoutRoot;
-        //internal MediaElement mebg;
-        //internal Image image1;
-        //internal Image imgRoundBe;
-        //internal TextBlock tblCauHoi;
-        //internal Image imgA;
-        //internal Image imgB;
-        //internal Image imgC;
-        //internal Image imgD;
-        //internal TextBlock tblA;
-        //internal TextBlock tblB;
-        //internal TextBlock tblC;
-        //internal TextBlock tblD;
-        //internal TextBlock textBlock1;
-        //internal TextBlock tblScore;
-        //internal TextBlock tblThamKhao;
-        //internal TextBlock tblSaoChep;
-        //internal Grid grdShowDA;
-        //internal Image imgDialogShowDA;
-        //internal TextBlock tblDA;
-        //internal TextBlock tblDaABCD;
-        //internal TextBlock tblDAChuongTrinh;
-        //internal Grid grdShowGiaiCuu;
-        //internal Image imgDialogShowGiaiCuu;
-        //internal Image imgRoundBe2;
-        //internal Image image2;
-        //internal TextBlock tblDapAnGC;
-        //internal TextBlock tblDapAnGiaiCuu;
-        //internal TextBlock tblKetquaGiaiCuu;
-        //internal Grid grdShowSaoChep;
-        //internal Image imgDialogShowSaoChep;
-        //internal Image imgRoundBe3;
-        //internal Image image3;
-        //internal TextBlock tblDapAnSaoChep1;
-        //internal TextBlock tblDapAnSaoChep;
-        //internal Image imgCoSaoChep;
-        //internal Image imgKhongSaoChep;
-        //internal Grid grdShowThamKhao;
-        //internal Image imgDialogShowThamKhao;
-        //internal Image imgRoundBe4;
-        //internal Image image4;
-        //internal TextBlock tblDapAnThamKhao;
-        //internal TextBlock tblDapAnThamKhaotext;
-        //internal Image imgDongThamKhao;
-        //internal TextBlock tblDongThamKhao;
-        //internal TextBlock tblDongThamKhao2;
-        //internal Grid grdQuit;
-        //internal Image imgDialogQuit;
-        //internal TextBlock tblCauHoiQuit;
-        //internal Image imgCoQuit;
-        //internal Image imgKhongQuit;
-        //private bool _contentLoaded;
+       
 
         public PagePlay()
         {
@@ -245,7 +190,7 @@ namespace AiThongMinhHonLop5
                 StreamResourceInfo resourceStream = Application.GetResourceStream(new Uri(SoundFilePath, UriKind.Relative));
                 Sound = SoundEffect.FromStream(resourceStream.Stream);
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException )
             {
             }
         }
@@ -259,7 +204,7 @@ namespace AiThongMinhHonLop5
                 this.LoadSoundEF(SoundFilePath, out Sound);
                 SoundInstance = Sound.CreateInstance();
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException )
             {
             }
         }

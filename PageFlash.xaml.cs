@@ -1,8 +1,4 @@
-﻿// Type: AiThongMinhHonLop5.PageFlash
-// Assembly: AiThongMinhHonLop5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// Assembly location: E:\HK9\AiThongMinhHonLop5BK_2\AiThongMinhHonLop5.dll
-
-using Microsoft.Phone.Controls;
+﻿using Microsoft.Phone.Controls;
 using System;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -18,29 +14,12 @@ namespace AiThongMinhHonLop5
     {
         private DispatcherTimer _timerLogo = new DispatcherTimer();
         private int count = 0;
-        //internal Grid LayoutRoot;
-        //internal Image imgLogo;
-        //internal MediaElement mebg;
-        //private bool _contentLoaded;
-
         public PageFlash()
         {
             InitializeComponent();
             this._timerLogo.Tick += new EventHandler(this._timerLogo_Tick);
             this._timerLogo.Interval = TimeSpan.FromMilliseconds(100.0);
         }
-
-        //[DebuggerNonUserCode]
-        //public void InitializeComponent()
-        //{
-        //    if (this._contentLoaded)
-        //        return;
-        //    this._contentLoaded = true;
-        //    Application.LoadComponent((object)this, new Uri("/PageFlash.xaml", UriKind.Relative));
-        //    this.LayoutRoot = (Grid)this.FindName("LayoutRoot");
-        //    this.imgLogo = (Image)this.FindName("imgLogo");
-        //    this.mebg = (MediaElement)this.FindName("mebg");
-        //}
 
         private void _timerLogo_Tick(object sender, EventArgs e)
         {
@@ -72,8 +51,6 @@ namespace AiThongMinhHonLop5
                     this.NavigationService.Navigate(new Uri("/PageGioiThieuGameShow.xaml", UriKind.Relative));
                 else if (Global.idchude == 20)
                     this.NavigationService.Navigate(new Uri("/PageAbout.xaml", UriKind.Relative));
-                else if (Global.idchude == 21)
-                    this.NavigationService.Navigate(new Uri("/EnterKey.xaml", UriKind.Relative));
             }
         }
 

@@ -38,36 +38,8 @@ namespace AiThongMinhHonLop5
         private int TB = 0;
         private bool rTB = true;
         private string[] UserID = new string[1000];
-       // private string imei = "";
-       // private bool reg = false;
-       // private string Keycode = "";
-        private string marketTest = "";
         private VibrateController vc = VibrateController.Default;
-        private bool enterName = false;
-        private bool About = false;
-        //internal Grid LayoutRoot;
-        //internal Grid grdMain;
-        //internal Image imgLogo;
-        //internal PlaneProjection Target;
-        //internal Image imgPlayNow;
-        //internal Image imgHighScore;
-        //internal Image imgInfo;
-        //internal Image imgVibrate;
-        //internal Image imgSound;
-        //internal Image imgThanhBach;
-        //internal RotateTransform rtf3;
-        //internal Grid grdTenNguoiChoi;
-        //internal Image image1;
-        //internal Image imgDongY;
-        //internal Image image3;
-        //internal TextBox txtName;
-        //internal Grid grdAbout;
-        //internal Image imgDialogAbout;
-        //internal Image imgDongAbout;
-        //internal Image imgXemThemAbout;
-        //internal TextBlock tblDongAbout;
-        //internal TextBlock tblXemThemAbout;
-        // private bool _contentLoaded;
+        private bool enterName = false;       
         public static string val;
         private SoundEffect ambienceSoundEF;
         private SoundEffectInstance ambienceInstanceEF;
@@ -88,13 +60,11 @@ namespace AiThongMinhHonLop5
                 }
             };
             dispatcherTimer.Start();
-            //page1.GetDeviceUniqueID();
             this._timerLogo.Tick += new EventHandler(this._timerLogo_Tick);
             this._timerLogo.Interval = TimeSpan.FromMilliseconds(10.0);
             this._timerThanhBach.Tick += new EventHandler(this._timerThanhBach_Tick);
             this._timerThanhBach.Interval = TimeSpan.FromMilliseconds(30.0);
         }
-
   
         private void _timerLogo_Tick(object sender, EventArgs e)
         {
@@ -163,7 +133,7 @@ namespace AiThongMinhHonLop5
                 StreamResourceInfo resourceStream = Application.GetResourceStream(new Uri(SoundFilePath, UriKind.Relative));
                 Sound = SoundEffect.FromStream(resourceStream.Stream);
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException )
             {
             }
         }
@@ -177,7 +147,7 @@ namespace AiThongMinhHonLop5
                 this.LoadSoundEF(SoundFilePath, out Sound);
                 SoundInstance = Sound.CreateInstance();
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException )
             {
             }
         }
@@ -232,61 +202,16 @@ namespace AiThongMinhHonLop5
             }
         }
 
-        ////public static byte[] GetDeviceUniqueID()
-        ////{
-        ////    byte[] inArray = (byte[])null;
-        ////    object propertyValue;
-        ////    if (DeviceExtendedProperties.TryGetValue("DeviceUniqueId", out propertyValue))
-        ////        inArray = (byte[])propertyValue;
-        ////    page1.val = Convert.ToBase64String(inArray);
-        ////    return inArray;
-        ////}
-
-        //private void ReadFileIMEI()
-        //{
-        //    StreamReader streamReader = new StreamReader((Stream)new IsolatedStorageFileStream("AiThongMinhHonLop5\\bin.sys", FileMode.Open, IsolatedStorageFile.GetUserStoreForApplication()));
-        //    this.Keycode = streamReader.ReadLine();
-        //    streamReader.Close();
-        //}
-
-        //private void GetVirtualIMEI()
-        //{
-        //    int index1 = 0;
-        //    foreach (char ch in page1.val)
-        //    {
-        //        this.UserID[index1] = Convert.ToInt32(ch).ToString();
-        //        ++index1;
-        //    }
-        //    string str = "";
-        //    for (int index2 = 0; index2 < this.UserID.Length; ++index2)
-        //        str = str + this.UserID[index2];
-        //    this.imei = str.Substring(0, 17);
-        //    Global.imei = this.imei;
-        //}
-
-        //private void checkMasterNormalKey(long sobaomat)
-        //{
-        //    string str1 = (long.Parse(this.imei) + sobaomat).ToString();
-        //    string str2 = str1.Substring(str1.Length - 10, 10);
-        //    string[] strArray = new string[10];
-        //    for (int startIndex = 0; startIndex < 10; ++startIndex)
-        //        strArray[startIndex] = str2.Substring(startIndex, 1);
-        //    if (!(strArray[9] + strArray[6] + strArray[3] + strArray[2] + strArray[5] + strArray[8] == this.Keycode))
-        //        return;
-        //    this.reg = true;
-        //    //Global.reg = true;
-        //}
+ 
         public class GetListData
-        {
-            //string id;
-            //string Ten;
-            //string Diem;            
+        {          
             public string id { get; set; }
 
             public string Ten { get; set; }
 
             public string Diem { get; set; }
         }
+
         private List<GetListData> GenerateScoreData()
         {
 
@@ -310,38 +235,7 @@ namespace AiThongMinhHonLop5
             }
             if (!storeForApplication.FileExists("score.xml"))
             {
-                // storeForApplication.CreateDirectory("AiThongMinhHonLop5");
-                //StreamWriter streamWriter = new StreamWriter((Stream)new IsolatedStorageFileStream("score.xml", FileMode.Create, storeForApplication));
-                //streamWriter.WriteLine("");
-                //streamWriter.Close();
-                //XmlWriterSettings xmlWriterSetting = new XmlWriterSettings();
-                //xmlWriterSetting.Indent = true;
-
-                //  // Lấy thông tin IsolateStorage
-
-                //  using (IsolatedStorageFile isoStorage =
-
-                //      IsolatedStorageFile.GetUserStoreForApplication())
-                //  {
-
-                //      // Tạo một FileStream để tạo file hay mở file
-
-                //      using (IsolatedStorageFileStream Stream = new IsolatedStorageFileStream("score.xml", System.IO.FileMode.OpenOrCreate, isoStorage))
-                //      {
-
-                //          XmlSerializer serializer = new XmlSerializer(typeof(List<GetListData>));
-
-                //          using (XmlWriter xmlWriter = XmlWriter.Create(Stream, xmlWriterSetting))
-                //          {
-
-                //              // Viết dữ liệu theo Serialize
-
-                //              serializer.Serialize(xmlWriter, GenerateScoreData());
-
-                //          }
-
-                //      }
-                //  }
+              
                 List<XmlElement> xmlElements = new List<XmlElement>();
                 xmlElements.Add(new XmlElement { Name = "id", Value = "1" });
                 xmlElements.Add(new XmlElement { Name = "Ten", Value = "Super" });
@@ -633,21 +527,6 @@ namespace AiThongMinhHonLop5
             return new Random().Next(min, max);
         }
 
-        public void CheckZuneNotifyUser()
-        {
-            if (MediaPlayer.State != MediaState.Playing || MediaPlayer.GameHasControl)
-                return;
-            MessageBox.Show(string.Format("Zune hiện đang phát \nAi thông minh hơn học sinh lớp 5 cần dừng Zune để phát âm thanh. \nNhấn Ok để tiếp tục trò chơi và vô hiệu hóa âm thanh!", new object[0]));
-            Global.sound = false;
-            try
-            {
-                this.ambienceInstanceEF.Stop();
-            }
-            catch
-            {
-            }
-        }
-
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
             this.grdMain.Visibility = Visibility.Visible;
@@ -655,12 +534,7 @@ namespace AiThongMinhHonLop5
             this.enterName = false;
             this.imgPlayNow.Source = (ImageSource)new BitmapImage(new Uri("/Images/choingay1.png", UriKind.RelativeOrAbsolute));
             this.imgHighScore.Source = (ImageSource)new BitmapImage(new Uri("/Images/diemcaonhat1.png", UriKind.RelativeOrAbsolute));
-            this.imgDongY.Source = (ImageSource)new BitmapImage(new Uri("/Images/dongy1.png", UriKind.RelativeOrAbsolute));
-            bool flag = !ApplicationIdleModeHelper.Current.RunsUnderLock;
-            if (flag && !ApplicationIdleModeHelper.Current.HasUserAgreedToRunUnderLock)
-                ApplicationIdleModeHelper.Current.HasUserAgreedToRunUnderLock = true;
-            ApplicationIdleModeHelper.Current.RunsUnderLock = flag;
-            this.CheckZuneNotifyUser();
+            this.imgDongY.Source = (ImageSource)new BitmapImage(new Uri("/Images/dongy1.png", UriKind.RelativeOrAbsolute));          
             this.PlaySoundEF("sound/soundbg.wav");
             this._timerLogo.Start();
             this._timerThanhBach.Start();
@@ -689,61 +563,9 @@ namespace AiThongMinhHonLop5
             Global.GiaiCuuSaoChep = false;
             Global.Win = false;
             this.CheckFile();
-            //this.GetVirtualIMEI();
-            //this.ReadFileIMEI();
-            //this.checkMasterNormalKey(31201216260708L);
-            //if (!this.reg)
-            //    this.checkMasterNormalKey(120320120400L);
-            //if (Global.reg)
-            //    return;
-            //this.GetMarketOnline();
-            //this.GetSynTaxSMS();
+           
         }
-
-        //private void GetMarketOnline()
-        //{
-        //    WebClient webClient = new WebClient();
-        //    webClient.OpenReadCompleted += new OpenReadCompletedEventHandler(this.webClientGetMarketOnline_OpenReadCompleted);
-        //    webClient.OpenReadAsync(new Uri("http://ifunsoft.net/api/aithongminhhonlop5/checkmkbk.php", UriKind.Absolute));
-        //}
-
-        //private void webClientGetMarketOnline_OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)
-        //{
-        //    try
-        //    {
-        //        this.marketTest = new StreamReader(e.Result).ReadToEnd().Trim();
-        //        if (!(this.marketTest == "0"))
-        //            return;
-        //        Global.reg = true;
-        //    }
-        //    catch
-        //    {
-        //    }
-        //}
-
-        //private void GetSynTaxSMS()
-        //{
-        //    WebClient webClient = new WebClient();
-        //    webClient.OpenReadCompleted += new OpenReadCompletedEventHandler(this.webClientGetSynTaxSMS_OpenReadCompleted);
-        //    webClient.OpenReadAsync(new Uri("http://ifunsoft.net/baokim/windowsphone/hocsinhlop5.php", UriKind.Absolute));
-        //}
-
-        //private void webClientGetSynTaxSMS_OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)
-        //{
-        //    try
-        //    {
-        //        string[] strArray = new StreamReader(e.Result).ReadToEnd().Trim().Split(new char[1]
-        //{
-        //  '~'
-        //});
-        //        Global.syntaxsms = strArray[0];
-        //        Global.portsms = strArray[1];
-        //    }
-        //    catch
-        //    {
-        //    }
-        //}
-
+     
         private void Vibrate()
         {
             if (!Global.vibrate)
@@ -813,9 +635,7 @@ namespace AiThongMinhHonLop5
         private void imgInfo_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.Vibrate();
-           // this.grdAbout.Visibility = Visibility.Visible;
             this.NavigationService.Navigate(new Uri("/PageAbout.xaml",UriKind.Relative));
-            this.About = true;
         }
 
         private void imgDongY_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -837,6 +657,7 @@ namespace AiThongMinhHonLop5
                 {
                 }
                 this.imgDongY.Source = (ImageSource)new BitmapImage(new Uri("Images/dongy3.png", UriKind.RelativeOrAbsolute));
+                //dùng để gọi màn hình bên pageflash
                 Global.idchude = 1;
                 this.NavigationService.Navigate(new Uri("/PageFlash.xaml", UriKind.Relative));
             }
@@ -846,29 +667,7 @@ namespace AiThongMinhHonLop5
                 this.imgDongY.Source = (ImageSource)new BitmapImage(new Uri("/Images/dongy1.png", UriKind.RelativeOrAbsolute));
             }
         }
-
-        private void tblDongAbout_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            this.Vibrate();
-            this.About = false;
-          //  this.grdAbout.Visibility = Visibility.Collapsed;
-        }
-
-        private void tblXemThemAbout_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            this.Vibrate();
-            this.About = false;
-           // this.grdAbout.Visibility = Visibility.Collapsed;
-            try
-            {
-                this.ambienceInstanceEF.Stop();
-            }
-            catch
-            {
-            }
-            this.NavigationService.Navigate(new Uri("/PageAbout.xaml", UriKind.Relative));
-        }
-
+      
 
     }
 }

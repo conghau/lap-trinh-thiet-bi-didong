@@ -1,8 +1,4 @@
-﻿// Type: AiThongMinhHonLop5.PageCacBe
-// Assembly: AiThongMinhHonLop5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// Assembly location: E:\HK9\AiThongMinhHonLop5BK_2\AiThongMinhHonLop5.dll
-
-using Microsoft.Devices;
+﻿using Microsoft.Devices;
 using Microsoft.Phone.Controls;
 using Microsoft.Xna.Framework.Audio;
 using System;
@@ -39,7 +35,7 @@ namespace AiThongMinhHonLop5
                 StreamResourceInfo resourceStream = Application.GetResourceStream(new Uri(SoundFilePath, UriKind.Relative));
                 Sound = SoundEffect.FromStream(resourceStream.Stream);
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
             }
         }
@@ -53,7 +49,7 @@ namespace AiThongMinhHonLop5
                 this.LoadSoundEF(SoundFilePath, out Sound);
                 SoundInstance = Sound.CreateInstance();
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
             }
         }
@@ -280,39 +276,5 @@ namespace AiThongMinhHonLop5
             this.grdQuit.Visibility = Visibility.Collapsed;
         }
 
-        //[DebuggerNonUserCode]
-        //public void InitializeComponent()
-        //{
-        //    if (this._contentLoaded)
-        //        return;
-        //    this._contentLoaded = true;
-        //    Application.LoadComponent((object)this, new Uri("/PageCacBe.xaml", UriKind.Relative));
-        //    this.LayoutRoot = (Grid)this.FindName("LayoutRoot");
-        //    this.mebg = (MediaElement)this.FindName("mebg");
-        //    this.imgRoundBe = (Image)this.FindName("imgRoundBe");
-        //    this.image1 = (Image)this.FindName("image1");
-        //    this.tblTenDongDoi = (TextBlock)this.FindName("tblTenDongDoi");
-        //    this.textBlock2 = (TextBlock)this.FindName("textBlock2");
-        //    this.tblSothich = (TextBlock)this.FindName("tblSothich");
-        //    this.textBlock4 = (TextBlock)this.FindName("textBlock4");
-        //    this.tblMonhocyeuthich = (TextBlock)this.FindName("tblMonhocyeuthich");
-        //    this.imgBe1 = (Image)this.FindName("imgBe1");
-        //    this.imgBe2 = (Image)this.FindName("imgBe2");
-        //    this.imgBe3 = (Image)this.FindName("imgBe3");
-        //    this.imgBe4 = (Image)this.FindName("imgBe4");
-        //    this.imgBe5 = (Image)this.FindName("imgBe5");
-        //    this.imgThink1 = (Image)this.FindName("imgThink1");
-        //    this.imgChon = (Image)this.FindName("imgChon");
-        //    this.tblNameBe1 = (TextBlock)this.FindName("tblNameBe1");
-        //    this.tblNameBe2 = (TextBlock)this.FindName("tblNameBe2");
-        //    this.tblNameBe3 = (TextBlock)this.FindName("tblNameBe3");
-        //    this.tblNameBe4 = (TextBlock)this.FindName("tblNameBe4");
-        //    this.tblNameBe5 = (TextBlock)this.FindName("tblNameBe5");
-        //    this.grdQuit = (Grid)this.FindName("grdQuit");
-        //    this.imgDialogQuit = (Image)this.FindName("imgDialogQuit");
-        //    this.tblCauHoiQuit = (TextBlock)this.FindName("tblCauHoiQuit");
-        //    this.imgCoQuit = (Image)this.FindName("imgCoQuit");
-        //    this.imgKhongQuit = (Image)this.FindName("imgKhongQuit");
-        //}
-    }
+           }
 }

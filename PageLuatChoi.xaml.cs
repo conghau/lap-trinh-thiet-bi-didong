@@ -107,7 +107,7 @@ namespace AiThongMinhHonLop5
         {
             this.InitializeComponent();
             this._timerThanhBach.Tick += new EventHandler(this._timerThanhBach_Tick);
-            this._timerThanhBach.Interval = TimeSpan.FromMilliseconds(150.0);
+            this._timerThanhBach.Interval = TimeSpan.FromMilliseconds(450.0);
             this._timerText.Tick += new EventHandler(this._timerText_Tick);
             this._timerText.Interval = TimeSpan.FromSeconds(1.0);
             this._timerShowLuatChoi.Tick += new EventHandler(this._timerShowLuatChoi_Tick);
@@ -424,7 +424,7 @@ namespace AiThongMinhHonLop5
                 StreamResourceInfo resourceStream = Application.GetResourceStream(new Uri(SoundFilePath, UriKind.Relative));
                 Sound = SoundEffect.FromStream(resourceStream.Stream);
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException )
             {
             }
         }
@@ -438,8 +438,8 @@ namespace AiThongMinhHonLop5
                 this.LoadSoundEF(SoundFilePath, out Sound);
                 SoundInstance = Sound.CreateInstance();
             }
-            catch (NullReferenceException ex)
-            {
+            catch (NullReferenceException)
+          {
             }
         }
 
