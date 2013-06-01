@@ -417,14 +417,9 @@ namespace AiThongMinhHonLop5
             streamWriter.Close();
            try
             {
-                //StreamResourceInfo resourceStream = Application.GetResourceStream(new Uri("/Data/DT1.xml", UriKind.Relative));
                 XDocument xmlDT1 = XDocument.Load(@"Data\DT1.xml");
                 var Cauhoi = from p in xmlDT1.Descendants("ProductItem") where((string)p.Element("SUBJECT").Value== chude && (string)p.Element("ID").Value==RealID.ToString()&& (string)p.Element("TYPE").Value=="0") select p;
-              //  XElement xmlDT1 = XElement.Load("DT1.xml");
-                //using (IsolatedStorageFile.GetUserStoreForApplication())
-              
-                    //foreach (XElement xelement in Enumerable.Where<XElement>(.Root.Elements((XName)"ProductItem"), (Func<XElement, bool>)(p => (string)p.Element((XName)"SUBJECT") == chude && (string)p.Element((XName)"TYPE") == "0" && (string)p.Element((XName)"ID") == RealID.ToString())))
-                   foreach(var item in Cauhoi)
+                foreach(var item in Cauhoi)
                     {
                         this.tblCauHoi.Text = item.Element("QUESTION").Value;
                         this.tblA.Text = "A: " + item.Element("A").Value;

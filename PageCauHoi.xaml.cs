@@ -295,7 +295,6 @@ namespace AiThongMinhHonLop5
 
         private void NextQuestion()
         {
-           //if (Global.reg)
             {
                 Global.RealChudeCauHoi = this.RealChude;
                 Global.RealLoaiCauhoi = this.RealType;
@@ -310,24 +309,7 @@ namespace AiThongMinhHonLop5
                 this.NavigationService.GoBack();
                 ++Global.lanchon;
             }
-            //else if (MessageBox.Show("Ứng dụng chưa đăng ký. Bạn có muốn nhận mã kích hoạt qua SMS? Nếu đã có Master Key hoặc đã có mã kích hoạt vui lòng nhấn Cancel để mở khóa!.", "Chưa đăng ký", MessageBoxButton.OKCancel) == MessageBoxResult.Cancel)
-            //{
-            //    try
-            //    {
-            //        this.ambienceInstanceEF.Stop();
-            //    }
-            //    catch
-            //    {
-            //    }
-            //    Global.idchude = 21;
-            //    this.NavigationService.GoBack();
-            //}
-            //else
-            //    new SmsComposeTask()
-            //    {
-            //        Body = (Global.syntaxsms + " " + Global.imei),
-            //        To = Global.portsms
-            //    }.Show();
+           
         }
 
         private void tblCauhoiA1_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

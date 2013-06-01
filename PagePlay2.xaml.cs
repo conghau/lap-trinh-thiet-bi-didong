@@ -494,18 +494,13 @@ namespace AiThongMinhHonLop5
             streamWriter.Close();
             try
             {
-                //StreamResourceInfo resourceStream = Application.GetResourceStream(new Uri("/Data/DT2.xml", UriKind.Relative));
-                //using (IsolatedStorageFile.GetUserStoreForApplication())
-               // {
-                //    foreach (XElement xelement in Enumerable.Where<XElement>(XDocument.Load(resourceStream.Stream).Root.Elements((XName)"ProductItem"), (Func<XElement, bool>)(p => (string)p.Element((XName)"SUBJECT") == chude && (string)p.Element((XName)"TYPE") == "1" && (string)p.Element((XName)"ID") == RealID.ToString())))
                 XDocument xmlDT1 = XDocument.Load(@"Data\DT2.xml");
                 var Cauhoi = from p in xmlDT1.Descendants("ProductItem") where ((string)p.Element("SUBJECT").Value == chude && (string)p.Element("ID").Value == RealID.ToString() && (string)p.Element("TYPE").Value == "1") select p;
-                  foreach (var item in Cauhoi)  
+                foreach (var item in Cauhoi)  
                 {
-                        this.tblCauHoi.Text = item.Element("QUESTION").Value;
-                        this.dapandung = item.Element("ANSWER").Value.Trim();
-                    }
-               // }
+                   this.tblCauHoi.Text = item.Element("QUESTION").Value;
+                   this.dapandung = item.Element("ANSWER").Value.Trim();
+                }
             }
             catch
             {
