@@ -107,7 +107,7 @@ namespace AiThongMinhHonLop5
         {
             this.InitializeComponent();
             this._timerThanhBach.Tick += new EventHandler(this._timerThanhBach_Tick);
-            this._timerThanhBach.Interval = TimeSpan.FromMilliseconds(450.0);
+            this._timerThanhBach.Interval = TimeSpan.FromMilliseconds(150.0);
             this._timerText.Tick += new EventHandler(this._timerText_Tick);
             this._timerText.Interval = TimeSpan.FromSeconds(1.0);
             this._timerShowLuatChoi.Tick += new EventHandler(this._timerShowLuatChoi_Tick);
@@ -115,7 +115,7 @@ namespace AiThongMinhHonLop5
             this._timerShowMaxTienThuong.Tick += new EventHandler(this._timerShowMaxTienThuong_Tick);
             this._timerShowMaxTienThuong.Interval = TimeSpan.FromMilliseconds(100.0);
             this._timerShowCacBe.Tick += new EventHandler(this._timerShowCacBe_Tick);
-            this._timerShowCacBe.Interval = TimeSpan.FromMilliseconds(800.0);
+            this._timerShowCacBe.Interval = TimeSpan.FromMilliseconds(1000.0);
             this._timerShowTroGiup.Tick += new EventHandler(this._timerShowTroGiup_Tick);
             this._timerShowTroGiup.Interval = TimeSpan.FromMilliseconds(500.0);
         }

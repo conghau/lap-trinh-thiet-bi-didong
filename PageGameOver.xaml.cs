@@ -177,7 +177,7 @@ namespace AiThongMinhHonLop5
             if (!Global.Win)
             {
                 this.PlaySoundBG("sound/EFGaneOver.mp3");
-                this.tblText.Text = "Hu hu! Tôi là " + Global.NamePlayer + ". Tôi hôm nay không thông minh bằng học sinh lớp 5";
+                this.tblText.Text = "Hix! Tôi là " + Global.NamePlayer + ". Tôi hôm nay không thông minh bằng học sinh lớp 5";
             }
             else
             {
@@ -224,37 +224,7 @@ namespace AiThongMinhHonLop5
 
        
         private void luuDiem()
-        {
-
-
-                //XmlWriterSettings xmlWriterSetting = new XmlWriterSettings();
-                //xmlWriterSetting.Indent = true;
-
-                //// Lấy thông tin IsolateStorage
-
-                //using (IsolatedStorageFile isoStorage =
-
-                //    IsolatedStorageFile.GetUserStoreForApplication())
-                //{
-
-                //    // Tạo một FileStream để tạo file hay mở file
-
-                //    using (IsolatedStorageFileStream Stream = new IsolatedStorageFileStream("score.xml", System.IO.FileMode.OpenOrCreate, isoStorage))
-                //    {
-
-                //        XmlSerializer serializer = new XmlSerializer(typeof(List<GetListScoreData>));
-
-                //        using (XmlWriter xmlWriter = XmlWriter.Create(Stream, xmlWriterSetting))
-                //        {
-
-                //            // Viết dữ liệu theo Serialize
-
-                //            serializer.Serialize(xmlWriter, GenerateScoreData());
-
-                //        }
-
-                //    }
-                //}
+        {          
            List<XmlElement> xmlElements = new List<XmlElement>();
            string id = GetLastId("SC");
            xmlElements.Add(new XmlElement { Name = "id", Value = id });
