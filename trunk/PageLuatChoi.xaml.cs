@@ -47,7 +47,7 @@ namespace AiThongMinhHonLop5
         private VibrateController vc = VibrateController.Default;
         private bool Skip = false;
         private bool Quit = false;
-        private int[] ar_vt = new int[10]
+        private int[] ar_vt = new int[10] 
     {
       0,
       1,
@@ -60,7 +60,7 @@ namespace AiThongMinhHonLop5
       8,
       9
     };
-        private string[] ArrMon = new string[26]
+        private string[] ArrMon = new string[26] // chủ đề của câu hỏi
     {
       "MATHEMATIC1",
       "MATHEMATIC2",
