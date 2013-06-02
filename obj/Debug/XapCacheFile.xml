@@ -1,5 +1,5 @@
-﻿<xapCache source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\AiThongMinhHonLop5_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="6/1/2013 4:01:02 PM">
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\AiThongMinhHonLop5.dll" archivePath="AiThongMinhHonLop5.dll" lastWriteTime="6/1/2013 4:01:00 PM" />
+﻿<xapCache source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Bin\Debug\AiThongMinhHonLop5_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="6/2/2013 4:42:34 PM">
+  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\obj\Debug\AiThongMinhHonLop5.dll" archivePath="AiThongMinhHonLop5.dll" lastWriteTime="6/2/2013 4:42:32 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Data\DT1.xml" archivePath="Data\DT1.xml" lastWriteTime="4/9/2013 3:12:47 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Data\DT2.xml" archivePath="Data\DT2.xml" lastWriteTime="3/15/2013 11:32:07 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Score1.xml" archivePath="Score1.xml" lastWriteTime="3/19/2013 9:31:30 AM" />
@@ -10,7 +10,6 @@
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\a5.png" archivePath="Images\a5.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\a6.png" archivePath="Images\a6.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\a7.png" archivePath="Images\a7.png" lastWriteTime="3/16/2013 10:32:39 PM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\about.png" archivePath="Images\about.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\ban.png" archivePath="Images\ban.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\bang.png" archivePath="Images\bang.png" lastWriteTime="3/16/2013 9:43:37 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\be1.png" archivePath="Images\be1.png" lastWriteTime="3/11/2013 12:28:31 PM" />
@@ -65,9 +64,9 @@
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\info.png" archivePath="Images\info.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\khong1.png" archivePath="Images\khong1.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\khong2.png" archivePath="Images\khong2.png" lastWriteTime="3/16/2013 10:32:39 PM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\noidunggiaicuumayman.png" archivePath="Images\noidunggiaicuumayman.png" lastWriteTime="3/16/2013 10:32:39 PM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\noidungsaochep.png" archivePath="Images\noidungsaochep.png" lastWriteTime="3/16/2013 10:32:39 PM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\noidungthamkhao.png" archivePath="Images\noidungthamkhao.png" lastWriteTime="3/16/2013 10:32:39 PM" />
+  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\noidunggiaicuumayman.png" archivePath="Images\noidunggiaicuumayman.png" lastWriteTime="6/2/2013 4:25:01 PM" />
+  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\noidungsaochep.png" archivePath="Images\noidungsaochep.png" lastWriteTime="6/2/2013 4:31:19 PM" />
+  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\noidungthamkhao.png" archivePath="Images\noidungthamkhao.png" lastWriteTime="6/2/2013 4:34:25 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\roundbe1.png" archivePath="Images\roundbe1.png" lastWriteTime="3/11/2013 12:28:31 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\roundbe2.png" archivePath="Images\roundbe2.png" lastWriteTime="3/11/2013 12:28:31 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\roundbe3.png" archivePath="Images\roundbe3.png" lastWriteTime="3/11/2013 12:28:31 PM" />
@@ -83,7 +82,7 @@
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\tab1.png" archivePath="Images\tab1.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\tb1.png" archivePath="Images\tb1.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\tb2.png" archivePath="Images\tb2.png" lastWriteTime="3/16/2013 10:32:39 PM" />
-  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\tennguoichoi.png" archivePath="Images\tennguoichoi.png" lastWriteTime="3/16/2013 9:43:38 PM" />
+  <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\tennguoichoi.png" archivePath="Images\tennguoichoi.png" lastWriteTime="3/17/2013 11:27:24 AM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\thamkhao1 (2).png" archivePath="Images\thamkhao1 (2).png" lastWriteTime="3/16/2013 9:43:38 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\thamkhao1.png" archivePath="Images\thamkhao1.png" lastWriteTime="3/16/2013 10:32:39 PM" />
   <file source="E:\HK9\LTDD\lap-trinh-thiet-bi-didong\Images\thamkhao2.png" archivePath="Images\thamkhao2.png" lastWriteTime="3/16/2013 10:32:39 PM" />
