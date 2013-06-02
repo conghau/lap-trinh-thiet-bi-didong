@@ -128,7 +128,7 @@ namespace AiThongMinhHonLop5
             {
                 Global.sound = true;
                 Global.vibrate = true;
-                Global.idchude = 1;
+                Global.idchude = 1; //số id của màn hình , xem ở pageFlash
                 Global.totalScore = 0;
                 Global.Notification = "";
                 Global.lanchon = 0;
